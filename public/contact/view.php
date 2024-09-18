@@ -1,17 +1,35 @@
+<?php 
+if(isset($_POST['Vorname']) && isset($_POST['Nachname']) && isset($_POST['E-Mail']) && isset($_POST['Nachricht']) && isset($_POST['Datenschutzerklaerung'])) {
+    if($_POST['Datenschutzerklaerung'] === 'on') {
+        $headers = "MIME-Version 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=utf-8" . "\r\n";
+        $headers .= "FROM: mail@eickmann.com" . "\r\n";
+        $headers .= "Cc: nmk.eickmann@gmail.com" . "\r\n";
+
+        mail($_POST['E-Mail'],'Kontakt Formular!',  $_POST['Nachricht'], $headers);
+
+        header('LOCATION: /home/');
+        die();
+    }
+} 
+
+
+?>
+
 <main>
     <section id="contact-heading">
         <h1>Kontakt</h1>
     </section>
     <section id="contact-form">
-        <form action="https://formsubmit.co/5d598158e9a7dddb391d95f1aae0a1cd" method="post"
-            onsubmit="alert('Ihre Nachricht wurde versendet.')">
+        <form action="" method="post"
+            onsubmit="alert('Ihre Nachricht wurde versendet.\nSie werden zurück zur Startseite geleitet.')">
             <span id="bottom-bar"></span>
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_subject" value="Kontakt Formular!">
             <input type="hidden" name="_autoresponse"
                 value="Danke für ihre Nachricht. Wir werden uns schnellst möglich bei ihnen melden.">
             <input class="text-input" type="text" placeholder="Vorname *" name="Vorname" required>
-            <input class="text-input" type="text" placeholder="Nachname *" name="Namchname" required>
+            <input class="text-input" type="text" placeholder="Nachname *" name="Nachname" required>
             <input class="text-input" type="email" placeholder="E-Mail *" name="E-Mail" required>
             <input class="text-input" type="text" placeholder="Firma" name="Firma">
             <input class="text-input" type="text" placeholder="Telefonnummer" name="Telefonnummer">
@@ -39,7 +57,7 @@
                 required></textarea>
 
             <div id="privacy-agreement">
-                <input type="checkbox" name="Datenschutzerklärung" id="privacy-agreement" required>
+                <input type="checkbox" name="Datenschutzerklaerung" id="privacy-agreement" required>
                 <p>
                     Ich habe die <a href="/privacyAgreement/" target="_blank">Datenschutzerklärung</a> zur Kenntnis
                     genommen.<br>
