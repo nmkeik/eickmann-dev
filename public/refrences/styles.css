@@ -1,0 +1,240 @@
+:root {
+  --main-color: rgb(255, 202, 1);
+  --secondary-color: rgb(40, 40, 40);
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, Arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+section, .flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+header {
+  border-bottom: 7px solid var(--main-color);
+}
+
+main {
+  padding: 20px;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 20px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+main h1 {
+  font-size: 50px;
+  padding: 20px 20px;
+  margin: 10px -20px 20px -20px;
+  text-align: center;
+  color: white;
+  background-color: var(--secondary-color);
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+}
+main .ref-with-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 7px solid var(--main-color);
+  border-radius: 40px;
+  overflow: hidden;
+  max-width: 1500px;
+  height: 200px;
+  margin: 20px 0;
+  background-color: white;
+}
+main .ref-with-text .logo {
+  justify-content: center;
+  text-align: center;
+}
+main .ref-with-text .logo img {
+  height: 130px;
+  transition: height 0.15s;
+}
+main .ref-with-text .logo img:hover {
+  height: 140px;
+}
+main .ref-with-text .logo a {
+  text-decoration: none;
+  font-size: 30px;
+  transition: font-size 0.15s;
+  color: var(--secondary-color);
+}
+main .ref-with-text .logo a:hover {
+  font-size: 35px;
+}
+main .ref-with-text .refrence-text {
+  height: 100%;
+  line-height: inherit;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .ref-with-text .refrence-text p {
+  margin: 20px;
+  color: black;
+}
+main .ref-with-text .refrence-text p .line-break {
+  display: none;
+}
+@media screen and (max-width: 1230px) {
+  main .ref-with-text {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 600px;
+    height: 600px;
+    border-radius: 300px;
+  }
+  main .ref-with-text .logo h2 {
+    margin-bottom: -100px;
+  }
+  main .ref-with-text .refrence-text {
+    text-align: center;
+  }
+  main .ref-with-text .refrence-text p {
+    text-align: center;
+    margin-top: -20px;
+  }
+  main .ref-with-text .refrence-text p .line-break {
+    display: block;
+  }
+  main :nth-child(2) .logo img {
+    margin-bottom: -100px;
+  }
+  main :nth-child(3) .logo {
+    order: -1;
+  }
+  main :nth-child(3) .logo img {
+    margin-bottom: -50px;
+    height: 170px;
+  }
+  main :nth-child(3) .logo img:hover {
+    height: 190px;
+  }
+  main :nth-child(3) .refrence-text {
+    order: 1;
+  }
+  main :nth-child(3) .refrence-text p {
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 700px) {
+  main .ref-with-text {
+    width: 300px;
+    height: 900px;
+    border-radius: 150px;
+  }
+  main :nth-child(2) .logo img {
+    margin-bottom: -50px;
+    height: auto;
+    width: 250px;
+    transition: width 0.15s;
+  }
+  main :nth-child(2) .logo img:hover {
+    height: auto;
+    width: 270px;
+  }
+}
+main #ref-no-text {
+  /*general*/
+  /*xtra-small*/
+}
+@media screen {
+  main #ref-no-text {
+    width: 100%;
+    font-size: 1rem;
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  main #ref-no-text a {
+    text-decoration: none;
+  }
+  main #ref-no-text a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+  main #ref-no-text h1 {
+    font-size: 5em;
+    color: white;
+    margin: 40px 0;
+  }
+  main #ref-no-text #scroll-container {
+    width: 100%;
+    height: 100px;
+    padding: 40px 0;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+  main #ref-no-text #scroll-container .scroll-logos {
+    position: absolute;
+    height: 115px;
+    display: flex;
+    left: 100%;
+    top: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    align-items: center;
+    animation: scroll-logos 25s infinite linear;
+  }
+  main #ref-no-text #scroll-container .scroll-logos img {
+    height: 100px;
+    padding: 0 50px;
+    transition: transform 0.15s;
+  }
+  main #ref-no-text #scroll-container .scroll-logos img:hover {
+    transform: scale(1.1);
+  }
+  main #ref-no-text #scroll-container .scroll-logos2 {
+    animation-delay: 12.5s;
+  }
+  @keyframes scroll-logos {
+    to {
+      transform: translateX(-200%);
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  main #ref-no-text #scroll-container {
+    width: 80%;
+    padding: 20px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+  }
+  main #ref-no-text #scroll-container .scroll-logos {
+    top: 20px;
+  }
+  main #ref-no-text #scroll-container .scroll-logos img {
+    height: 60px;
+  }
+  main #ref-no-text #scroll-container .scroll-logos img:hover {
+    transform: scale(1.33);
+  }
+}

@@ -1,0 +1,53 @@
+@import '../_components/general';
+
+body {
+    width: 100vw;
+    background-image: url(../_assets/images/background-images/polygon-scatter-haikei1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    min-height: 550px;
+
+    h1 {
+        font-size: 80px;
+        width: 100%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+    }
+
+    a {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        background-color: var(--secondary-color);
+        padding: 10px 20px;
+        margin-top: 50px;
+        transition: scale 0.2s ease-in-out;
+        border-radius: 30px;
+
+        &:hover{
+            color: var(--secondary-color);
+            background-color: var(--main-color);
+            transition: background-color, color, ease-in-out 0.2s;
+        }
+    }
+
+}
+
+#scroll-to-top {
+    display: none;
+}

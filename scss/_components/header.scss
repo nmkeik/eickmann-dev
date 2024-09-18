@@ -1,0 +1,261 @@
+header {
+
+    /*general*/
+    @media screen {
+        transition: all 0.5s;
+        background-color: white;
+        position: relative;
+        height: 80px;
+
+        #logo {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            height: 70%;
+        }
+
+        #contact-links {
+            position: absolute;
+            top: 0px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+
+            a {
+                text-decoration: none;
+                color: rgb(51, 50, 50);
+                font-size: 1.4rem;
+                font-weight: 500;
+                padding-bottom: 5px;
+
+                img {
+                    filter: invert(14%) sepia(25%) saturate(10%) hue-rotate(10deg) brightness(100%) contrast(87%);
+                    height: 1.4rem;
+                    margin-right: 4px;
+                    margin-bottom: -2.5px;
+                }
+            }
+
+            a:hover {
+                color: var(--main-color);
+
+                img {
+                    filter: invert(67%) sepia(94%) saturate(727%) hue-rotate(0deg) brightness(105%) contrast(103%);
+                }
+            }
+        }
+
+        .nav-bar {
+            a {
+                margin: 0 2px;
+
+                display: inline-block;
+
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-weight: 400;
+
+                color: rgb(26, 26, 26);
+                background-color: white;
+
+                padding: 8px 20px;
+
+                border: 1px solid rgba(255, 200, 1, 0);
+
+                cursor: pointer;
+            }
+
+            a:hover,
+            .active-hover {
+                border: 1px solid lightgrey;
+            }
+
+            .active-page {
+                border: 1px solid var(--main-color);
+            }
+        }
+
+        .drop-down {
+            z-index: 300;
+            position: absolute;
+            display: grid;
+            text-align: center;
+            grid-template-columns: repeat(1fr);
+            background-color: white;
+            border: 1px solid lightgrey;
+
+            a {
+                display: inline-block;
+
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 400;
+
+                color: rgb(26, 26, 26);
+                background-color: white;
+
+                padding: 8px 20px;
+
+                border: 1px solid rgba(255, 200, 1, 0);
+
+                cursor: pointer;
+            }
+
+            a:hover {
+                border: 1px solid lightgrey;
+            }
+
+            .seperator {
+                border-bottom: 1px solid lightgray;
+            }
+
+            .active-page {
+                border: 1px solid var(--main-color);
+            }
+        }
+
+        #hamburger {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        #contact-links {
+            margin-top: 10px;
+            left: 10px;
+            align-items: center;
+
+            a {
+                img {
+                    height: 2rem;
+                }
+
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /*small*/
+    @media screen and (max-width: 768px) {
+        height: 50px;
+
+        #contact-links {
+            flex-direction: row;
+            margin-top: 15px;
+
+            a {
+                margin-right: 10px;
+            }
+        }
+
+        .nav-bar {
+            top: -215px;
+            z-index: 200;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            background-color: white;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .nav-bar-active {
+            top: 50px;
+        }
+
+        #hamburger {
+            z-index: 400;
+            display: block;
+            cursor: pointer;
+
+            .bar {
+                display: block;
+                background-color: black;
+                border-radius: 2px;
+                width: 25px;
+                height: 3px;
+                margin: 5px auto;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+
+        .hamburger-active {
+            .bar:nth-child(2) {
+                opacity: 0;
+            }
+
+            .bar:nth-child(1) {
+                opacity: 1;
+                transform: translateY(8px) rotate(45deg);
+            }
+
+            .bar:nth-child(3) {
+                opacity: 1;
+                transform: translateY(-8px) rotate(-45deg);
+            }
+        }
+
+        .drop-down {
+            left: 2px;
+            right: 2px;
+
+            a {
+                background-color: rgba(216, 216, 216, 0.147);
+            }
+        }
+    }
+}
+
+#scroll-to-top {
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100%;
+
+    &::before {
+        content: '';
+        display: block;
+        height: 101vh;
+        pointer-events: none;
+    }
+
+    a {
+        position: sticky;
+        z-index: 1000;
+        top: 90vh;
+        margin-right: 30px;
+        cursor: pointer;
+        font-size: 20px;
+        display: block;
+        border-radius: 25%;
+        width: 40px;
+        height: 40px;
+        background-color: var(--main-color);
+        box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
+
+        span {
+            background-color: white;
+            width: 20px;
+            height: 2.5px;
+            display: block;
+            position: absolute;
+            top: 48%;
+            box-shadow: 0 0 5px 0.5px rgba(0, 0, 0, 0.5);
+        }
+        .left-span {
+            right: 38%;
+            transform: rotate(-55deg);
+        }
+        .right-span {
+            left: 38%;
+            transform: rotate(55deg);
+        }
+    }
+}

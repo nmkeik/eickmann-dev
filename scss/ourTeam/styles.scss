@@ -1,0 +1,144 @@
+@import "../_components/general";
+
+body {
+    width: 100vw;
+    background-image: url(../_assets/images/background-images/polygon-scatter-haikei1.svg);
+    background-repeat: none;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    // background-color: transparent;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 2px 2px rgba(204, 204, 204, 0.525);
+    overflow: visible;
+}
+
+main {
+    width: 100%;
+    padding: 20px 0 30px 0;
+    font-size: 20px;
+
+    h1 {
+        font-size: 50px;
+        padding: 20px 0px 10px;
+        width: 100%;
+        text-align: center;
+        margin-top: -35px;
+        background-color: white;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 0 2px 2px rgba(204, 204, 204, 0.525);
+    }
+
+    section {
+        margin: rem(330) 10%;
+        margin-bottom: rem(15);
+
+        .img-box {
+            height: 30vw;
+            width: 30vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            img {
+                z-index: 3;
+                height: 28vw;
+                width: 28vw;
+                object-fit: cover;
+                border-radius: 20px;
+                overflow: hidden;
+            }
+        }
+
+        .content {
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--secondary-color);
+            color: white;
+            height: 35vw;
+            border-radius: 10px;
+            margin-left: -15vw;
+            padding-left: -15vw;
+
+            h2, h3, p {
+                margin-left: 17vw;
+                margin-right: 5vw;
+            }
+
+            h2 {
+                color: white;
+                font-size: rem(60);
+            }
+
+            h3 {
+                color: rgb(200, 200, 200);
+                font-size: rem(45);
+            }
+
+            p {
+                margin-top: rem(20);
+                color: rgb(196, 196, 196);
+                font-size: rem(35);
+            }
+        }
+
+        @media screen and (max-width: rem(1400)) {
+            flex-direction: column;
+            margin: rem(100) 10%;
+            position: relative;
+
+            .img-box {
+                position: absolute;
+                top: 3vw;
+                height: auto;
+                width: auto;
+
+                &::after {
+                    top: 0;
+                    left: 0;
+                    height: 40vw;
+                    width: 50vw;
+                    object-position: top;
+                }
+
+                img {
+                    height: 40vw;
+                    width: 50vw;
+                    object-position: top;
+                }
+            }
+
+        .content {
+            justify-content: center;
+            height: auto;
+            margin-left: 0;
+            margin-top: 15vw;
+            padding: 33vw 16vw 10vw;
+
+            h2, h3, p {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            h2 {
+                font-size: rem(60);
+            }
+
+            h3 {
+                font-size: rem(45);
+            }
+
+            p {
+                margin-top: rem(20);
+                font-size: rem(35);
+            }
+        }
+
+        }
+    }
+}

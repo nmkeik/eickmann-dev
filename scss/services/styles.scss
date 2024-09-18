@@ -1,0 +1,384 @@
+@import "../_components/general";
+
+#beratung-section, #hardware-section, #software-section, #wartung-section {
+    @media screen {
+        background-color: white;
+        color: var(--secondary-color);
+
+        .picture-title {
+            border-radius: 100px;
+            width: 40%;
+            max-width: 670px;
+            margin: 50px 2% 50px 8%;
+            display: flex;
+            position: relative;
+            text-align: center;
+            align-items: center;
+            height: 450px;
+            overflow: hidden;
+            box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+
+            .img-box {
+                z-index: 1;
+                width: 100%;
+                overflow: hidden;
+                
+                .overlay {
+                    z-index: 2;
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: var(--secondary-color);
+                    opacity: 40%;
+                }
+
+                img {
+                    width: 100%;
+                    height: fit-content;
+                }
+            }
+
+            h1 {
+                position: absolute;
+                font-size: 70px;
+                width: 100%;
+                color: white;
+                //text-shadow: 5px 5px 5px var(--secondary-color);
+                z-index: 3;
+                margin-right: 50px;
+            }
+        }
+
+        .content {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            
+            p {
+                margin-left: 50px;
+                width: 500px;
+                font-size: 18px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1500px) {
+        .picture-title {
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1150px) {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+
+        .picture-title {
+            height: 600px;
+            width: 90%;
+            margin: 50px 5% 50px 5%;
+            h1 {
+                font-size: 50px;
+                margin-top: -400px;
+            }
+
+            .img-box {
+                .overlay {
+                    opacity: 60%;
+                }
+            }
+        }
+
+        .content {
+            width: 100%;
+            max-width: 670px;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 50px;
+            position: absolute;
+            text-align: center;
+
+            p {
+                width: 80%;
+                z-index: 3;
+                color: white;
+            }
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .picture-title {
+            height: 600px;
+            width: 90%;
+            margin: 50px 5% 50px 5%;
+            
+            .img-box {
+                img {
+                    height: 640px;
+                    width:max-content;
+                }
+            }
+            
+            h1 {
+                font-size: 40px;
+                margin-top: -400px;
+            }
+        }
+
+        .content {
+            width: 100%;
+            margin-left: 10%;
+            margin-top: 50px;
+
+            p {
+                width: 80%;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+#hardware-section, #wartung-section {
+    background-color: var(--secondary-color);
+    color: white;
+    @media screen {
+        .content {
+            align-items: flex-end;
+
+            p {
+                text-align: right;
+                margin-left: 0;
+                margin-right: 50px;
+            }
+        }
+
+        .picture-title {
+            margin: 50px 8% 50px 2%;
+            box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+            
+        }
+    }
+
+    @media screen and (max-width: 1150px) {
+        flex-wrap: wrap-reverse;
+        .content {
+            align-items: center;
+
+            p{
+                text-align: center;
+                margin-left: -10%;
+                margin-right: 0;
+            }
+        }
+
+        .picture-title {
+            margin: 50px 5% 50px 5%;
+        }
+    }
+}
+
+#beratung-section, #software-section {
+    @media screen and (max-width: 500px) {
+        .content {
+            p {
+                text-align: center;
+                font-size: 13.5px;
+                margin-left: 5%;
+            }
+        }
+    }
+
+}
+
+#beratung-section {
+    padding-top: 15px;
+
+    background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-180deg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#software-section {
+    background-image: url("../_assets/images/background-images/yellow-white-half.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and (max-width: 1150px) {
+        .content {
+            margin-top: 100px;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .picture-title {
+            h1 {
+                font-size: 33px;
+            }
+        }
+    }
+}
+
+#angebot-section {
+    @media screen {
+
+        padding: 50px;
+        padding-bottom: 70px;
+        background-image: url("../_assets/images/background-images/visitenkarte-hintergrund.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        article {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content:start;
+            align-items: center;
+
+            h2 {
+                color: var(--secondary-color);
+                //text-shadow: 0px 0px 8px black;
+                font-size: 40px;
+                height: 120px;
+                text-align: center;
+                margin-bottom: 20px;
+                z-index: 100;
+
+            }
+
+            ul {
+                color: var(--secondary-color);
+                background-color: white;
+                box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.5);
+                border-radius: 100px;
+                width: 80%;
+                min-height: 330px;
+                padding: 50px;
+                padding-top: 60px;
+                font-size: 15px;
+
+                li {
+                    margin-left: 60px;
+                    margin-right: 40px;
+                    width: 80%;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1250px) {
+        background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-90deg.png");
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+
+        article {
+
+            width: 80%;
+
+            h2 {
+                font-size: 25px;
+                height: auto;
+            }
+
+            ul {
+                padding: 25px;
+                padding-top: 35px;
+                border-radius: 50px;
+                margin-bottom: 50px;
+                li {
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        article {
+            width: 90%;
+            h2 {
+                font-size: 18px;
+            }
+        }
+
+    }
+
+}
+
+#wartung-section {
+    @media screen and (max-width: 720px) {
+        padding-bottom: 25px;        
+    }
+}
+
+#page-seperator {
+    width: 100%;
+    height: 100px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #arrow-down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 20px;
+        height: 40px;
+        width: 40px;
+        border: 4px solid whitesmoke;
+        border-radius: 30px;
+
+        #arrow-left-side, #arrow-right-side {
+            display: block;
+            width: 20px;
+            height: 4px;
+            background-color: whitesmoke;
+        }
+    
+        #arrow-left-side {
+            rotate: 45deg;
+            margin-right: -4px;
+        }
+    
+        #arrow-right-side {
+            rotate: -45deg;
+            margin-left: -4px;
+        }
+    }
+
+
+
+    #text-left-side, #text-right-side {
+        color: white;
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 700px) {
+        #text-left-side, #text-right-side {
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        #text-left-side, #text-right-side {
+            font-size: 25px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        height: 150px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        flex-direction: column;
+    }
+
+
+}

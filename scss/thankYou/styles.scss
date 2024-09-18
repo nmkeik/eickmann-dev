@@ -1,0 +1,53 @@
+@import "../_components/general";
+
+main {
+    height: 87vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 50px 0px;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    color: white;
+}
+
+#thank-you-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+}
+
+#thank-you-btn-div {
+    margin-top: 40px;
+    button {
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--secondary-color);
+        padding: 10px;
+        background-color: white;
+        border: 2px solid rgb(55, 54, 54);
+        border-radius: 30px;
+        box-shadow: 3px 3px 10px grey;
+        cursor: pointer;
+    }
+
+    button:hover {
+        box-shadow: 3px 3px 15px black;
+    }
+}

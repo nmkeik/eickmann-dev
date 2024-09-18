@@ -1,0 +1,222 @@
+@import "../_components/general";
+
+body {
+  @media screen {
+    background-image: url("../_assets/images/background-images/visitenkarte-hintergrund.png");
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
+
+  @media screen and (max-width: 500px) {
+    background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-90deg.png");
+		background-position: center;    
+  }
+}
+
+#contact-heading {
+  @media screen {
+    display: block;
+
+    h1 {
+      margin-left: 60px;
+      font-size: 6rem;
+      color: rgb(55, 54, 54);
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    h1 {
+      margin: 0;
+      text-align: center;
+    }
+  }
+}
+
+#contact-form {
+  @media screen {
+    display: block;
+    position: relative;
+    form {
+      width: 85%;
+      margin: 20px 60px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      .text-input {
+        display: block;
+        margin-bottom: 20px;
+        padding: 20px 5px 7px 7px;
+        font-size: 1.7rem;
+        border: none;
+        border-bottom: 1px solid;
+        border-color: black;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: rgba(121, 118, 118, 0.056);
+        outline: none;
+      }
+
+      .text-input::placeholder {
+        color: rgb(55, 54, 54);
+        opacity: 100%;
+      }
+
+      .bottom-bar-show {
+        position: absolute;
+        display: block;
+        background-color: var(--main-color);
+        height: 3px;
+        width: 0%;
+        animation: bottomBarShow 0.8s forwards ease-out;
+      }
+
+      @keyframes bottomBarShow {
+        from {
+          width: 0%;
+        }
+
+        to {
+          width: 85%
+        }
+      }
+
+      h2 {
+        font-weight: 500;
+        font-size: 1.7rem;
+        color: rgb(55, 54, 54);
+        margin-top: 3px;
+        margin-bottom: 12px;
+      }
+
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 20px;
+
+        span {
+          display: flex;
+          align-items: center;
+
+          input {
+            margin-right: 5px;
+            accent-color: var(--main-color);
+          }
+  
+          h3 {
+            font-weight: 500;
+            font-size: 1.7rem;
+            color: rgb(55, 54, 54);
+            margin-right: 15px;
+          }
+        }
+
+
+      }
+
+      textarea {
+        max-height: 280px;
+        padding: 20px 5px 7px 7px;
+        font-size: 1.7rem;
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 0px 0px 10px 5px rgba(59, 59, 59, 0.085);
+        outline: none;
+      }
+
+      textarea::placeholder {
+        color: rgb(55, 54, 54);
+        opacity: 100%;
+      }
+
+      #privacy-agreement {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 45px auto;
+
+        input {
+          height: 20px;
+          margin-right: 25px;
+          accent-color: rgb(55, 54, 54);
+          align-self: flex-start;
+          margin-top: 10px;
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 1.7rem;
+          color: rgb(55, 54, 54);
+          margin-right: 15px;
+
+          a {
+            text-decoration: none;
+            color: rgb(139, 131, 131);
+          }
+        }
+      }
+
+      #send-btn {
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: rgb(55, 54, 54);
+        margin-top: 20px;
+        padding: 10px;
+        width: 112px;
+        background-color: transparent;
+        border: 2px solid rgb(55, 54, 54);
+        border-radius: 30px;
+      }
+
+      #send-btn:hover {
+        background-color: rgb(55, 54, 54);
+        color: white;
+        cursor: pointer;
+      }
+    }
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 500px) {
+    form {
+      margin: 0;
+      width: 100%;
+      align-items: center;
+
+      .text-input {
+        width: 80%;
+        background-color: rgba(30, 30, 30, 0.062);
+      }
+
+      h2 {
+        text-align: center;
+        margin: 10px 20px;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      div {
+        display: block;
+        width: 80%;
+
+        span {
+          margin: 8px 0 8px 0;
+
+          input {
+            align-self: flex-start;
+            margin-top: 6px;
+          }
+        }
+      }
+
+      textarea {
+        width: 80%;
+      }
+
+      #privacy-agreement {
+        width: 80%;
+      }
+    }
+  }
+}

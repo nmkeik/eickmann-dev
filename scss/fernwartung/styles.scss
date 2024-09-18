@@ -1,0 +1,55 @@
+@import "../_components/general";
+
+body {
+    @media screen {
+        background-image: url("../_assets/images/background-images/visitenkarte-hintergrund.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @media screen and (max-width: 500px) {
+        background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-90deg.png");
+        background-position: center;
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    height: clamp(600px, calc(100vh - 80px), 100vh);
+    padding-bottom: 60px;
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: rgb(55, 54, 54);
+        margin-top: 40px;
+        padding: 10px;
+        background-color: transparent;
+        border: 2px solid rgb(55, 54, 54);
+        border-radius: 30px;
+        transition: all 0.2s ease;
+    }
+
+    a:hover {
+        background-color: rgb(55, 54, 54);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+#scroll-to-top {
+    display: none;
+}
