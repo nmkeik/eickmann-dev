@@ -65,18 +65,18 @@ body {
   #beratung-section .picture-title h1, #hardware-section .picture-title h1, #software-section .picture-title h1, #wartung-section .picture-title h1 {
     position: absolute;
     font-size: 70px;
-    width: 100%;
+    width: 96%;
+    padding: 0 2%;
     color: white;
     z-index: 3;
-    margin-right: 50px;
   }
   #beratung-section .content, #hardware-section .content, #software-section .content, #wartung-section .content {
     width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   #beratung-section .content p, #hardware-section .content p, #software-section .content p, #wartung-section .content p {
-    margin-left: 50px;
     width: 500px;
     font-size: 18px;
   }
@@ -96,10 +96,11 @@ body {
     height: 600px;
     width: 90%;
     margin: 50px 5% 50px 5%;
+    align-items: flex-start;
   }
   #beratung-section .picture-title h1, #hardware-section .picture-title h1, #software-section .picture-title h1, #wartung-section .picture-title h1 {
     font-size: 50px;
-    margin-top: -400px;
+    margin-top: 40px;
   }
   #beratung-section .picture-title .img-box .overlay, #hardware-section .picture-title .img-box .overlay, #software-section .picture-title .img-box .overlay, #wartung-section .picture-title .img-box .overlay {
     opacity: 60%;
@@ -121,7 +122,7 @@ body {
 }
 @media screen and (max-width: 700px) {
   #beratung-section .picture-title, #hardware-section .picture-title, #software-section .picture-title, #wartung-section .picture-title {
-    height: 600px;
+    height: 650px;
     width: 90%;
     margin: 50px 5% 50px 5%;
   }
@@ -132,11 +133,9 @@ body {
   }
   #beratung-section .picture-title h1, #hardware-section .picture-title h1, #software-section .picture-title h1, #wartung-section .picture-title h1 {
     font-size: 40px;
-    margin-top: -400px;
   }
   #beratung-section .content, #hardware-section .content, #software-section .content, #wartung-section .content {
-    width: 100%;
-    margin-left: 10%;
+    width: 90%;
     margin-top: 50px;
   }
   #beratung-section .content p, #hardware-section .content p, #software-section .content p, #wartung-section .content p {
@@ -172,7 +171,6 @@ body {
   }
   #hardware-section .content p, #wartung-section .content p {
     text-align: center;
-    margin-left: -10%;
     margin-right: 0;
   }
   #hardware-section .picture-title, #wartung-section .picture-title {
