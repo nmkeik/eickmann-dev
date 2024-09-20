@@ -4,11 +4,11 @@
     <a href="/home/"><img fetchpriority="high" loading="lazy" id="logo" src="../_assets/images/logos/blue_mouse.png" alt="Logo mit Link zur Startseite"></a>
 
     <div id="contact-links">
-        <a href="https://goo.gl/maps/H5CxB4g5Y1rfu8Qp8" target="_blank" alt="Google Maps">
+        <a href="https://goo.gl/maps/H5CxB4g5Y1rfu8Qp8" target="_blank">
             <img fetchpriority="high" loading="lazy" src="../_assets/icons/location-dot-solid.svg">
             <span>&nbsp;In der Römerstadt 259</span>
         </a>
-        <a href="tel:069-763409" target="_blank" alt="Telefonnummer">
+        <a href="tel:069-763409" target="_blank">
             <img fetchpriority="high" loading="lazy" src="../_assets/icons/phone-solid.svg">
             <span>069-763409</span>
         </a>
