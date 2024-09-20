@@ -16,5 +16,7 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true
-    }
+    },
+    "liveServer.settings.root": "public/",
+    "liveServer.settings.port": 5500
 }
