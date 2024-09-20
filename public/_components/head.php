@@ -12,6 +12,8 @@
         <!--import of CSS files-->
         <link rel="stylesheet" href="../_components/header.css">
         <link rel="stylesheet" href="../_components/footer.css">
+        <link rel="preconnect" href="../_assets/fonts/Inter-4.0/web/">
+        <link rel="stylesheet" href="../_assets/fonts/Inter-4.0/web/inter.css">
         <link rel="stylesheet" href="styles.css">
     </head>
 
