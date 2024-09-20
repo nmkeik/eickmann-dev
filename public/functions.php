@@ -54,3 +54,7 @@ function printInfo() {
 
 	return $view;
 }
+
+function createMessage($INFO) {
+	return 'Test Message';
+}

@@ -1,15 +1,24 @@
 <?php 
 if(isset($_POST['Vorname']) && isset($_POST['Nachname']) && isset($_POST['E-Mail']) && isset($_POST['Nachricht']) && isset($_POST['Datenschutzerklaerung'])) {
     if($_POST['Datenschutzerklaerung'] === 'on') {
-        $headers = "MIME-Version 1.0" . "\r\n";
-        $headers .= "Content-type:text/html;charset=utf-8" . "\r\n";
-        $headers .= "FROM: mail@eickmann.com" . "\r\n";
-        $headers .= "Cc: nmk.eickmann@gmail.com" . "\r\n";
 
-        mail($_POST['E-Mail'],'Kontakt Formular!',  $_POST['Nachricht'], $headers);
+        $headers = array(
+            'MIME-Version'=> '1.0',
+            'Content-type'=> 'text/html;charset=UTF-8',
+            'From'=> 'Eickmann Computer <mail@eickmann.com>',
+            'Reply-To'=> 'mail@eickmann.com',
+            'BCC'=> 'max@eickmann.com',
+        );
 
-        header('LOCATION: /home/');
-        die();
+        $sent = mail($_POST['E-Mail'],'Kontakt Formular!',  createMessage($_POST), $headers);
+
+        if($sent) {
+            echo "<script language='javascript'> alert('Ihre Nachricht wurde erfolgreich versendet!\nSie werden nun zurück auf unsere Startseite geleitet.') </script>";
+            header('LOCATION: /home/');
+            die();
+        } else {
+            echo "<script language='javascript'> alert('Error: Ihre Nachricht wurde nicht versendet!\nBitte versuchen Sie es erneut.') </script>";
+        }
     }
 } 
 
