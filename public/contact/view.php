@@ -10,7 +10,23 @@ if(isset($_POST['Vorname']) && isset($_POST['Nachname']) && isset($_POST['E-Mail
             'BCC'=> 'max@eickmann.com',
         );
 
-        $sent = mail($_POST['E-Mail'],'Kontakt Formular!',  createMessage($_POST), $headers);
+        $info = array(
+            'Vorname' => $_POST['Vorname'],
+            'Nachname'=> $_POST['Nachname'],
+            'E-Mail'=> $_POST['E-Mail'],
+        );
+
+        if(isset($_POST['Firma'])) $info['Firma'] = $_POST['Firma']; 
+        if(isset($_POST['Telefonnummer'])) $info['Telefonnummer'] = $_POST['Telefonnummer']; 
+        if(isset($_POST['Firma'])) $info['Firma'] = $_POST['Firma'];
+
+        $category = array();
+        if(isset($_POST['Beratung'])) $category['Beratung'] = True;
+        if(isset($_POST['Hardware, Verkauf und Service'])) $category['Hardware, Verkauf und Service'] = True;
+        if(isset($_POST['Software & Betriebssysteme'])) $category['Software & Betriebssysteme'] = True;
+        if(isset($_POST['Wartung & Support'])) $category['Wartung & Support'] = True;
+
+        $sent = mail($_POST['E-Mail'],'Kontakt Formular!',  createMessage($info, $category, $_POST['Nachricht']), $headers);
 
         if($sent) {
             echo "<script language='javascript'> alert('Ihre Nachricht wurde erfolgreich versendet!\nSie werden nun zurück auf unsere Startseite geleitet.') </script>";
