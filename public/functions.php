@@ -57,7 +57,7 @@ function printInfo() {
 
 function createMessage($info, $category, $message) {
 	ob_start();
-	include("mail-template.php");
+	include("../_components/mailMessage.php");
 	$message_file = ob_get_contents();
 	ob_end_clean();
 	return $message_file;
