@@ -21,16 +21,8 @@
         <span class="bar"></span>
     </div>
 
-<?php
-$path=array();
-?>
-
     <!--nav bar-->
     <nav class="nav-bar">
-        <?php 
-            $url = parse_url($_SERVER['REQUEST_URI']);
-            $path = $url['path']; 
-        ?>
         <a href='/home/' <?= $path === "/home/" ? "class='active-page'" : "" ?> >Startseite</a>
         <a href="/services/" id="leistungen-link" <?= $path === '/services/' ? "class='active-page'" : "" ?> >Leistungen&#x25BE;</a>
         <a href="/contact/" <?= $path === '/contact/' ? "class='active-page'" : '' ?> >Kontakt</a>
