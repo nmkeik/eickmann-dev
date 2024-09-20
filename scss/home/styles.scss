@@ -394,11 +394,11 @@
 				img {
 					height: 100px;
 					padding: 0 50px;
-					transition: height 0.15s;
+					transition: transform 0.2s;
 				}
 
 				img:hover {
-					height: 110px;
+					transform: scale(1.10);
 				}
 			}
 			
@@ -432,7 +432,7 @@
 				}
 
 				img:hover {
-					height: 80px;
+					transform: scale(1.15);
 				}
 			} 
 		}

@@ -1,5 +1,6 @@
 <main>
-    <h1>Datenschutzerklärung</h1>
+    <h1 id="h1-normal">Datenschutzerklärung</h1>
+    <h1 id="h1-broken-up">Datenschutz-<br>erklärung</h1>
 
     <p>
         Wir freuen uns sehr über Ihr Interesse an unserem Unternehmen. Datenschutz hat einen besonders hohen Stellenwert

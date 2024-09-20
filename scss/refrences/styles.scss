@@ -221,7 +221,7 @@ main {
                     img {
                         height: 100px;
                         padding: 0 50px;
-                        transition: transform 0.15s;
+                        transition: transform 0.2s;
                     }
 
                     img:hover {
@@ -259,7 +259,7 @@ main {
                     }
 
                     img:hover {
-                        transform: scale(1.33);
+                        transform: scale(1.15);
                     }
                 } 
             }

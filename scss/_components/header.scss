@@ -12,6 +12,7 @@ header {
             top: 10px;
             right: 20px;
             height: 70%;
+            z-index: 100;
         }
 
         #contact-links {
@@ -239,6 +240,10 @@ header {
         height: 40px;
         background-color: var(--main-color);
         box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
+
+        @media screen and (max-width: 450px) {
+            top: 85vh;
+        }
 
         span {
             background-color: white;

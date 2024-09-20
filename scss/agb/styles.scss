@@ -3,8 +3,8 @@
 body {
     width: 100vw;
     background-image: url(../_assets/images/background-images/polygon-scatter-haikei1.svg);
-    background-repeat: none;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: 200vw 355vw;
     background-color: rgb(255, 255, 255);
     backdrop-filter: blur(20px);
 }
@@ -13,6 +13,11 @@ main {
     margin: 20px 50px 0px 60px;
     padding-bottom: 30px;
     font-size: 20px;
+
+    #h1-broken-up {
+        display: none;
+    }
+
     h1 {
         font-size: 50px;
         padding: 0px 0px 20px;
@@ -46,5 +51,39 @@ main {
     li:before {
         content: counters(item, ".") ". ";
         counter-increment: item;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        margin-left: 0;
+        margin-right: 20px;
+        padding-bottom: 50px;
+
+        h1 {
+            margin-left: 20px;
+            margin-right: 20px;
+            width: calc(100vw - 40px);
+            font-size: 35px;
+        }
+
+        @media screen and (max-width: 450px) {
+            #h1-normal {
+                display: none;
+            }
+            #h1-broken-up {
+                display: block;
+            }
+        }
+
+        p, ol {
+            margin-left: 20px;
+        }
+
+        ol {
+            p, li, ol {
+                margin-left: 0;
+            }
+        }
     }
 }

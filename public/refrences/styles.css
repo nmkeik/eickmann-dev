@@ -204,7 +204,7 @@ main #ref-no-text {
   main #ref-no-text #scroll-container .scroll-logos img {
     height: 100px;
     padding: 0 50px;
-    transition: transform 0.15s;
+    transition: transform 0.2s;
   }
   main #ref-no-text #scroll-container .scroll-logos img:hover {
     transform: scale(1.1);
@@ -235,6 +235,6 @@ main #ref-no-text {
     height: 60px;
   }
   main #ref-no-text #scroll-container .scroll-logos img:hover {
-    transform: scale(1.33);
+    transform: scale(1.15);
   }
 }

@@ -40,6 +40,9 @@ main {
   padding-bottom: 30px;
   font-size: 20px;
 }
+main #h1-broken-up {
+  display: none;
+}
 main h1 {
   font-size: 50px;
   padding: 0px 0px 20px;
@@ -73,4 +76,29 @@ main .li-fw-500 {
 }
 main .li-fw-500 li {
   font-weight: 500;
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  main #h1-normal {
+    display: none;
+  }
+  main #h1-broken-up {
+    display: block;
+    font-size: 40px;
+  }
+  main h1 {
+    margin-left: 0;
+    width: 100vw;
+    text-align: center;
+  }
+  main p, main ol {
+    margin-left: 20px;
+  }
+  main ol p, main ol li, main ol ol {
+    margin-left: 0;
+  }
 }

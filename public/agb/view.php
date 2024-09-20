@@ -1,5 +1,6 @@
 <main>
-    <h1>Geschäftsbedingungen der Fa. Eickmann Computer</h1>
+    <h1 id="h1-normal">Geschäftsbedingungen der Fa. Eickmann Computer</h1>
+    <h1 id="h1-broken-up">Geschäfts-<br>bedingungen<br>der Fa.<br>Eickmann Computer</h1>
     <ol>
 
         <li class="header">Allgemein</li>

@@ -1,7 +1,7 @@
 <script src="../_javascript/emailcrypt.js"></script>
 <header class="flex-center"> 
     <!--logo right top-->
-    <a href="http://www.eickmann.com/Fernwartung.exe"><img fetchpriority="high" loading="lazy" id="logo" src="../_assets/images/logos/blue_mouse.png" alt="Logo mit Link zur Fernwartung"></a>
+    <a href="/home/"><img fetchpriority="high" loading="lazy" id="logo" src="../_assets/images/logos/blue_mouse.png" alt="Logo mit Link zur Startseite"></a>
 
     <div id="contact-links">
         <a href="https://goo.gl/maps/H5CxB4g5Y1rfu8Qp8" target="_blank" alt="Google Maps">

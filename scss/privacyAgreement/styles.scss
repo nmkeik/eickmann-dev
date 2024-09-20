@@ -13,6 +13,11 @@ main {
     margin: 20px 50px 0px 60px;
     padding-bottom: 30px;
     font-size: 20px;
+
+    #h1-broken-up {
+        display: none;
+    }
+
     h1 {
         font-size: 50px;
         padding: 0px 0px 20px;
@@ -56,5 +61,37 @@ main {
             font-weight: 500;
         }
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        margin-left: 0;
+        margin-right: 20px;
+
+        #h1-normal {
+            display: none;
+        }
+
+        #h1-broken-up {
+            display: block;
+            font-size: 40px;
+        }
+
+        h1 {
+            margin-left: 0;
+            width: 100vw;
+            text-align: center;
+        }
+
+        p, ol {
+            margin-left: 20px;
+        }
+
+        ol {
+            p, li, ol {
+                margin-left: 0;
+            }
+        }
     }
 }
