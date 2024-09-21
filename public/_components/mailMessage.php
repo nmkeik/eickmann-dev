@@ -1,11 +1,11 @@
 <?php 
     $table = "";
     foreach (@$info as $key => $value) {
-        $table .= "<tr>\n<th>$key</th>\n<th>$value</th></tr>";
+        $table .= "<tr>\n<th class='th-class'>$key</th>\n<th class='th-class'>$value</th></tr>";
     }
     if(!empty(@$category)) {
         foreach (@$category as $key => $value) {
-            $table .= "<tr>\n<th>$key</th>\n<th style='text-align:center;'>&#9745</th></tr>";
+            $table .= "<tr>\n<th class='th-class'>$key</th>\n<th class='th-class' style='text-align:center;'>&#9745</th></tr>";
         }
     }
 ?>
@@ -34,7 +34,7 @@
             padding: 0;
         }
 
-        .page {
+        #page {
             min-width: 100vw;
             min-height: 100vh;
             display: flex;
@@ -58,7 +58,7 @@
             clip-path: polygon(0 100%, 0 80%, 40% 70%, 100% 80%, 100% 100%);
         }
 
-        header {
+        #header {
             position: absolute;
             top: 0;
             left: 0;
@@ -69,7 +69,7 @@
             z-index: -1;
         }
 
-        header > a {
+        #header-a {
             position: absolute;
             top: 0;
             left: 20px;
@@ -81,39 +81,39 @@
             transition: transform 0.2s;
         }
 
-        header > a:hover {
+        #header-a:hover {
             transform: scale(1.075);
             transition: transform 0.2s;
         } 
 
-        header > a > img {
+        #header-a-img {
             height: 70%;
         }
 
-        header > a >span {
+        #header-a-span {
             font-family: Poppins;
             font-weight: 700;
             font-size: 1.2rem;
             margin-left: -26px;
         }
 
-        h1, h2, h3, p {
+        #h1, #h2, .h3-class, #p {
             margin: 0;
         }
 
-        h1 {
+        #h1 {
             margin-top: 50px;
         }
 
-        h2 {
+        #h2 {
             margin-bottom: 70px;
         }
 
-        h3 {
+        #h3 {
             margin-bottom: 25px;
         }
 
-        table {
+        #table {
             width: 60%;
             min-width: 500px;
             max-width: 800px;
@@ -124,7 +124,7 @@
             border-bottom: 2px solid black;
         }
 
-        th {
+        .th-class {
             width: 50%;
             text-align: left;
             border-top: 2px solid black;
@@ -132,7 +132,7 @@
             padding: 10px;
         }
 
-        p {
+        #p {
             width: 60%;
             min-width: 500px;
             max-width: 800px;
@@ -144,64 +144,63 @@
             backdrop-filter: blur(10px);
         }
 
-        footer {
+        #footer {
             position: absolute;
             bottom: 30px;
         }
 
-        footer > a {
+        .footer-a {
             color: black;
         }
 
         @media screen and (max-width: 1080px) {
-
-            h1 {
+            #h1 {
                 margin-top: 90px;
             }
         }
 
         @media screen and (max-width: 650px) {
 
-            header > a {
+            #header-a {
                 left: 50%;
                 transform: translateX(-50%);
                 width: 100%;
                 justify-content: center;
             }
 
-            h1 {
+            #h1 {
                 font-size: 25px;
             }
 
-            h2 {
+            #h2 {
                 font-size: 20px;
                 margin-top: 5px;
                 margin-bottom: 55px;
                 font-weight: 600;
             }
 
-            h1, h2 {
+            #h1, #h2 {
                 width: 90%;
                 text-wrap: balance;
                 text-align: center;
             }
 
-            table, p {
+            #table, #p {
                 min-width: 0;
                 width: 90%;
             }
 
-            p {
+            #p {
                 margin-bottom: 120px;
             }
 
-            footer {
+            #footer {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
             }
 
-            footer > a {
+            .footer-a {
                 text-wrap: nowrap;
             }
         }
@@ -210,34 +209,34 @@
 </head>
 
 <body>
-    <div class="page">
+    <div id="page">
         <span id="bg"></span>
 
-        <header>
-            <a href="https://tp.eickmann.com/home/">
-                <img src="http://tp.eickmann.com/_assets/images/logos/blue_mouse.png" alt="Logo von Eickmann Computer">
-                <span>e&#305ckmann computer</span>
+        <header id="header">
+            <a id="header-a" href="https://tp.eickmann.com/home/">
+                <img id="header-a-img" src="http://tp.eickmann.com/_assets/images/logos/blue_mouse.png" alt="Logo von Eickmann Computer">
+                <span id="header-a-span">e&#305ckmann computer</span>
             </a>
         </header>
 
-        <h1>Danke für ihre Nachricht an Uns.</h1>
-        <h2>Wir werden uns schnellst möglich bei ihnen melden.</h2>
+        <h1 id="h1">Danke für ihre Nachricht an Uns.</h1>
+        <h2 id="h2">Wir werden uns schnellst möglich bei ihnen melden.</h2>
 
-        <h3>Ihre angegebenen Daten:</h3>
-        <table>
+        <h3 class="h3-class">Ihre angegebenen Daten:</h3>
+        <table id="table">
             <?= $table ?>
         </table>
 
-        <h3>Ihre Nachricht an Uns:</h3>
-        <p>
+        <h3 class="h3-class">Ihre Nachricht an Uns:</h3>
+        <p id="p">
             <?= @$message ?>
         </p>
 
-        <footer>
-            <a href="https://eickmann.com/home/">Eickmann Computer</a> |
-            <a href="https://eickmann.com/privacyAgreement/">Datenschutz</a> |
-            <a href="https://eickmann.com/agb/">AGBs</a> |
-            <a href="https://eickmann.com/impressum/">Impressum</a>
+        <footer id="footer">
+            <a class="footer-a" href="https://eickmann.com/home/">Eickmann Computer</a> |
+            <a class="footer-a" href="https://eickmann.com/privacyAgreement/">Datenschutz</a> |
+            <a class="footer-a" href="https://eickmann.com/agb/">AGBs</a> |
+            <a class="footer-a" href="https://eickmann.com/impressum/">Impressum</a>
         </footer>
     </div>
 </body>
