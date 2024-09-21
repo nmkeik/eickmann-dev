@@ -42,13 +42,18 @@
             align-items: center;
             position: relative;
             font-family: sans-serif, Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+            z-index: 0;
         }
 
         #bg {
             position: absolute;
             width: 100%;
             height: 100%;
+            min-width: 100vw;
+            min-height: 100vh;
             background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 50%);
+            background-size: cover;
+            background-repeat: no-repeat;
             z-index: -1;
             clip-path: polygon(0 100%, 0 80%, 40% 70%, 100% 80%, 100% 100%);
         }
@@ -59,6 +64,8 @@
             left: 0;
             width: 100%;
             height: 100%;
+            min-width: 100vw;
+            min-height: 100vh;
             z-index: -1;
         }
 
