@@ -22,9 +22,9 @@ if(isset($_POST['Vorname']) && isset($_POST['Nachname']) && isset($_POST['E-Mail
 
         $category = array();
         if(isset($_POST['Beratung'])) $category['Beratung'] = True;
-        if(isset($_POST['Hardware, Verkauf und Service'])) $category['Hardware, Verkauf und Service'] = True;
-        if(isset($_POST['Software & Betriebssysteme'])) $category['Software & Betriebssysteme'] = True;
-        if(isset($_POST['Wartung & Support'])) $category['Wartung & Support'] = True;
+        if(isset($_POST['Hardware,_Verkauf_und_Service'])) $category['Hardware, Verkauf und Service'] = True;
+        if(isset($_POST['Software_&_Betriebssysteme'])) $category['Software & Betriebssysteme'] = True;
+        if(isset($_POST['Wartung_&_Support'])) $category['Wartung & Support'] = True;
 
         $sent = mail($_POST['E-Mail'],'Kontakt Formular!',  createMessage($info, $category, $_POST['Nachricht']), $headers);
 
@@ -65,15 +65,15 @@ if(isset($_POST['Vorname']) && isset($_POST['Nachname']) && isset($_POST['E-Mail
                     <h3>Beratung</h3>
                 </span>
                 <span>
-                    <input type="checkbox" name="Hardware, Verkauf und Service" id="test">
+                    <input type="checkbox" name="Hardware,_Verkauf_und_Service" id="test">
                     <h3>Hardware, Verkauf und Service</h3>
                 </span>
                 <span>
-                    <input type="checkbox" name="Software & Betriebssysteme" id="test">
+                    <input type="checkbox" name="Software_&_Betriebssysteme" id="test">
                     <h3>Software & Betriebssysteme</h3>
                 </span>
                 <span>
-                    <input type="checkbox" name="Wartung & Support" id="test">
+                    <input type="checkbox" name="Wartung_&_Support" id="test">
                     <h3>Wartung & Support</h3>
                 </span>
 
