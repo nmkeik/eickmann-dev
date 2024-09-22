@@ -18,7 +18,6 @@ if(isset($_POST['Vorname']) && isset($_POST['Nachname']) && isset($_POST['E-Mail
 
         if(isset($_POST['Firma'])) $info['Firma'] = $_POST['Firma']; 
         if(isset($_POST['Telefonnummer'])) $info['Telefonnummer'] = $_POST['Telefonnummer']; 
-        if(isset($_POST['Firma'])) $info['Firma'] = $_POST['Firma'];
 
         $category = array();
         if(isset($_POST['Beratung'])) $category['Beratung'] = True;
