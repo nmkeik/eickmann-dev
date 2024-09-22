@@ -18,7 +18,7 @@
 
         <h2>Der Eickmann Computer Shop</h2>
         <p>
-            Dort befand sich eine große Auswahl an Computern, Software, Zubehör, Literatur und Verbrauchsartikeln. Auch ausgefallenere Wünsche konnten erfüllt werden. Ein freundliches Fachpersonal half stets gerne weiter.
+            Im damaligen Eickmann Computer Shop befand sich eine große Auswahl an Computern, Software, Zubehör, Literatur und Verbrauchsartikeln. Auch ausgefallenere Wünsche konnten erfüllt werden. Ein freundliches Fachpersonal half stets gerne weiter.
             Den Kunden wurden nur Lösungen angeboten mit denen die tägliche Arbeit (oder das Hobby) effektiver gestaltet werden konnten. Hierzu gehörte selbstverständlich auch ein Rundum Service, der Technikabteilung, welche eine Reparatur oder Erweiterung binnen 3 Werktagen durchgeführt hat. Auch ein vor Ort Service war zu dieser Zeit bereits möglich, sofern dieses technisch möglich war.
         </p>
 
@@ -31,7 +31,7 @@
         </p>
 
         <p>
-            Mittlerweile bietet Eickmann Computer über 15 Jahre an Kompetenz, Erfahrung und legt dabei noch immer besonderen Wert auf individuelle Beratung und persönlichen Service.
+            Mittlerweile bietet Eickmann Computer über 35 Jahre an Kompetenz, Erfahrung und legt dabei noch immer besonderen Wert auf individuelle Beratung und persönlichen Service.
         </p>
 
         <p>

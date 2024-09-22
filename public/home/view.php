@@ -42,8 +42,7 @@
                 </p>
 
                 <p>
-                    <a href="/services/#business-client">Mit Advanced Verträgen</a> Erreichbar:<br>24/7 365 Tage im
-                    Jahr
+                    <a href="/services/#business-client">Mit Advanced Verträgen</a> Erreichbar:<br>24/7 365 Tage im Jahr
                 </p>
 
             </div>
@@ -65,8 +64,7 @@
                         Beratung
                     </h2>
                     <p>
-                        Wir beraten und unterstützen Sie bei allen Fragen und Problemen rund um Ihre IT & Telefonie,
-                        auch bei der Auswahl zum Kauf und der Installation neuer Hard- und Software.
+                        Wir beraten und unterstützen Sie bei allen Fragen und Problemen rund um Ihre IT & Telefonie, auch bei der Auswahl zum Kauf und der Installation neuer Hard- und Software.
                     </p>
                 </div>
             </a>
@@ -79,8 +77,7 @@
                         Hardware<br>Verkauf und Service
                     </h2>
                     <p>
-                        Wenn Ihr Computer oder Laptop streikt, ist oft eine Reparatur der kostengünstige Weg. Die
-                        Ursachen können vielfältig sein und wir prüfen ihr Gerät genau.
+                        Wenn Ihr Computer oder Laptop streikt, ist oft eine Reparatur der kostengünstige Weg. Die Ursachen können vielfältig sein und wir prüfen ihr Gerät genau.
                     </p>
                 </div>
             </a>
@@ -94,9 +91,7 @@
                             Software & Betriebssysteme
                         </h2>
                         <p>
-                            Konzeptionelle Planung der IT-Infrastruktur und sicherer Netzwerkarchitekturen sind die
-                            Basis für einen reibungslosen Betrieb und gewährleisten dauerhaften Nutzen bei
-                            gleichzeitiger Reduzierung der Folgekosten
+                            Konzeptionelle Planung der IT-Infrastruktur und sicherer Netzwerkarchitekturen sind die Basis für einen reibungslosen Betrieb und gewährleisten dauerhaften Nutzen bei gleichzeitiger Reduzierung der Folgekosten
                         </p>
                     </div>
                 </a>
@@ -109,9 +104,7 @@
                             Wartung &<br> Support
                         </h2>
                         <p>
-                            Bei uns landen Sie nicht in einer Hotline. Wenn Sie uns kontaktieren, betreut Sie direkt ein
-                            Ansprechpartner. Dieser berät Sie persönlich, fachgerecht und übernimmt Ihren benötigten
-                            Support per Fernwartung oder kommt direkt zu Ihnen nachhause.
+                            Bei uns landen Sie nicht in einer Hotline. Wenn Sie uns kontaktieren, betreut Sie direkt ein Ansprechpartner. Dieser berät Sie persönlich, fachgerecht und übernimmt Ihren benötigten Support per Fernwartung oder kommt direkt zu Ihnen nachhause.
                         </p>
                     </div>
                 </a>
@@ -136,8 +129,8 @@
             </div>
             <div>
                 <img loading="lazy" src="../_assets/images/general/profile-picture-andy-1000px.jpg" alt="Bild von Andy Auer">
-                <h3>Andy Auer</h3>
-                <h4>IT-Experte</h4>
+                <h3>Andreas Auer</h3>
+                <h4>Computer-Techniker</h4>
             </div>
             <div>
                 <img loading="lazy" src="../_assets/images/general/profile-picture-max-1000px.jpg" alt="Bild von Nickolas Eickmann">
@@ -168,40 +161,24 @@
                 <a target="_blank" href="https://maps.app.goo.gl/CwrakJGjCVFGDdb19">
                     <div>
                         Alexandra Gerecht-Mahr &#x2022; 5.0 &#9733;<br>
-                        Inhabergeführtes Unternehmen mit kleinem Ladengeschäft. Hat nur nachmittags geöffnet, aber
-                        telefonisch gut erreichbar. Sehr guter freundlicher und kompetenter Service. Ich habe hier schon
-                        einige Geräte gekauft und reparieren lassen und bin Stammkundin zur Fernwartung meines PC-
-                        Systems. Betreuung auch vor Ort und für Firmenkunden. Bin sehr zufrieden!
+                        Inhabergeführtes Unternehmen mit kleinem Ladengeschäft. Hat nur nachmittags geöffnet, aber telefonisch gut erreichbar. Sehr guter freundlicher und kompetenter Service. Ich habe hier schon einige Geräte gekauft und reparieren lassen und bin Stammkundin zur Fernwartung meines PC- Systems. Betreuung auch vor Ort und für Firmenkunden. Bin sehr zufrieden!
                     </div>
                 </a>
                 <a target="_blank" href="https://maps.app.goo.gl/d8ramrXCGMkwNJZFA">
                     <div>
                         S. Lange &#x2022; 5.0 &#9733;<br>
-                        Ich bin seit 10 Jahren Geschäftskunde bei Herrn Eickmann und bei seinem Mitarbeiter Herrn Auer
-                        und sehr zufrieden. Ich schätze, dass ich mich auf das Team verlassen kann, ich insbesondere in
-                        Notsituationen nicht allein gelassen werde, ich bei kleineren Problemen schnell und
-                        unkompliziert über das Telefon Hilfe bekomme, die große Erfahrung und Fachkompetenz von Eickmann
-                        Computer, das Preis-Leistungsverhältnis, die Menschlichkeit und die Fairness. Ich kann das Team
-                        nur weiter empfehlen!!!
+                        Ich bin seit 10 Jahren Geschäftskunde bei Herrn Eickmann und bei seinem Mitarbeiter Herrn Auer und sehr zufrieden. Ich schätze, dass ich mich auf das Team verlassen kann, ich insbesondere in Notsituationen nicht allein gelassen werde, ich bei kleineren Problemen schnell und unkompliziert über das Telefon Hilfe bekomme, die große Erfahrung und Fachkompetenz von Eickmann Computer, das Preis-Leistungsverhältnis, die Menschlichkeit und die Fairness. Ich kann das Team nur weiter empfehlen!!!
                     </div>
                 </a>
                 <a target="_blank" href="https://maps.app.goo.gl/wg1bwuBZnKJZbDGD8">
                     <div>
                         Claudia Steiger &#x2022; 5.0 &#9733;<br>
-                        Die Firma Eickmann Computer betreut mich technisch mit allem Drum und Dran in meiner Firma seit
-                        1995. Ich bin außerordentlich zufrieden. Prompte Lösung meiner technischen Probleme und faire
-                        Preise sowohl wenn ich Hardware kaufe als auch bei den Dienstleistungen. Letzte Woche habe ich
-                        meinen neuen Laptop bekommen zu einem fairen Preis und bin sehr zufrieden. Meine bisherige
-                        Docking Station konnte durch einen neuen modernen Monitor komplett ersetzt werden. Auch die
-                        Wartung und Pflege meiner Website übernimmt seit vielen Jahren die Firma Eickmann. Ich schätze
-                        an Firma Eickmann nicht nur die fachliche Kompetenz und Serviceorientierung sondern auch die
-                        menschliche Seite von Herrn Eickmann und seinen Mitarbeitern.
+                        Die Firma Eickmann Computer betreut mich technisch mit allem Drum und Dran in meiner Firma seit 1995. Ich bin außerordentlich zufrieden. Prompte Lösung meiner technischen Probleme und faire Preise sowohl wenn ich Hardware kaufe als auch bei den Dienstleistungen. Letzte Woche habe ich meinen neuen Laptop bekommen zu einem fairen Preis und bin sehr zufrieden. Meine bisherige Docking Station konnte durch einen neuen modernen Monitor komplett ersetzt werden. Auch die Wartung und Pflege meiner Website übernimmt seit vielen Jahren die Firma Eickmann. Ich schätze an Firma Eickmann nicht nur die fachliche Kompetenz und Serviceorientierung sondern auch die menschliche Seite von Herrn Eickmann und seinen Mitarbeitern.
                     </div>
                 </a>
             </div>
             <div>
-                <a target="_blank"
-                    href="https://www.branchenkompass-frankfurt.de/branchenbuch/eickmann-computer-frankfurt-praunheim-computer_139863.html">
+                <a target="_blank" href="https://www.branchenkompass-frankfurt.de/branchenbuch/eickmann-computer-frankfurt-praunheim-computer_139863.html">
                     <h2>
                         Branchen Compass
                     </h2>
@@ -209,31 +186,22 @@
                         5.0 &#9733;
                     </h3>
                 </a>
-                <a target="_blank"
-                    href="https://www.branchenkompass-frankfurt.de/branchenbuch/eickmann-computer-frankfurt-praunheim-computer_139863.html">
+                <a target="_blank" href="https://www.branchenkompass-frankfurt.de/branchenbuch/eickmann-computer-frankfurt-praunheim-computer_139863.html">
                     <div>
                         D.S. &#x2022; 5.0 &#9733;<br>
-                        Sehr freundliches Personal, schneller Service, nehmen sich Zeit einem Dinge zu erklären. Fühlte
-                        mich gut aufgehoben, gerne wieder! <br><br><br>
+                        Sehr freundliches Personal, schneller Service, nehmen sich Zeit einem Dinge zu erklären. Fühlte mich gut aufgehoben, gerne wieder! <br><br><br>
                     </div>
                 </a>
-                <a target="_blank"
-                    href="https://www.branchenkompass-frankfurt.de/branchenbuch/eickmann-computer-frankfurt-praunheim-computer_139863.html">
+                <a target="_blank" href="https://www.branchenkompass-frankfurt.de/branchenbuch/eickmann-computer-frankfurt-praunheim-computer_139863.html">
                     <div>
                         K.-H. &#x2022; 5.0 &#9733;<br>
-                        Seid vielen, vielen Jahren ein kompetenter und freundlicher Betrieb. Meine Fragen nerven niemals
-                        und mir und der ganzen Familie wurde immer wieder eine gute Lösung zu sehr fairen Preisen
-                        geboten. Sehr gerne kommen wir hierher. <br><br><br>
+                        Seid vielen, vielen Jahren ein kompetenter und freundlicher Betrieb. Meine Fragen nerven niemals und mir und der ganzen Familie wurde immer wieder eine gute Lösung zu sehr fairen Preisen geboten. Sehr gerne kommen wir hierher. <br><br><br>
                     </div>
                 </a>
-                <a target="_blank"
-                    href="https://www.branchenkompass-frankfurt.de/branchenbuch/eickmann-computer-frankfurt-praunheim-computer_139863.html">
+                <a target="_blank" href="https://www.branchenkompass-frankfurt.de/branchenbuch/eickmann-computer-frankfurt-praunheim-computer_139863.html">
                     <div>
                         E.M. &#x2022; 5.0 &#9733;<br>
-                        Eickmann-Computer wurde mir vor ein paar Jahren von einem Freund empfohlen und ich habe nur
-                        positve Erfahrungen gemacht. Zuletzt wurden von einer kaputten Festplatte meine Daten gerettet.
-                        Wenn möglich werden Probleme auch per Fernwartung gelöst. Immer sehr freundlich und kompetent.
-                        <br><br><br><br>
+                        Eickmann-Computer wurde mir vor ein paar Jahren von einem Freund empfohlen und ich habe nur positve Erfahrungen gemacht. Zuletzt wurden von einer kaputten Festplatte meine Daten gerettet.  Wenn möglich werden Probleme auch per Fernwartung gelöst. Immer sehr freundlich und kompetent.<br><br><br><br>
                     </div>
                 </a>
             </div>
@@ -248,26 +216,20 @@
 
         <div id="scroll-container">
             <div class="scroll-logos">
-                <a target="_blank" href="https://www.hpp-consulting.de/"><img src="../_assets/images/other-company-logos/hpp-logo-150px.png"
-                        alt="Logo von HPP Strategie- und Marketingberatung"></a>
-                <a target="_blank" href="https://www.cbf-da.de/index.html"><img
-                        src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt="Logo vom Club Behinderte und Ihrer Freunde Darmstadt"></a>
-                <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img
-                        src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt="Logo von Chameleo Eventsupport"></a>
-                <a href="https://freitag-artists.de/" target="_blank"><img src="../_assets/images/other-company-logos/freitag-logo-150px.jpg" alt="Logo von Freitag Artists"></a>
-                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt="Logo von Schneiders Obsthof"></a>
-                <a href="https://vollerlaw.com/" target="_blank"><img src="../_assets/images/other-company-logos/voller-logo-150px.jpg"
-                        alt="Logo von Voller Rechtsanwälte"></a>
-            </div>
-            <div class="scroll-logos scroll-logos2">
-                <a target="_blank" href="https://www.hpp-consulting.de/"><img src="../_assets/images/other-company-logos/hpp-logo-150px.png"
-                        alt="Logo von HPP Strategie- und Marketingberatung"></a>
+                <a target="_blank" href="https://www.hpp-consulting.de/"><img src="../_assets/images/other-company-logos/hpp-logo-150px.png" alt="Logo von HPP Strategie- und Marketingberatung"></a>
                 <a target="_blank" href="https://www.cbf-da.de/index.html"><img src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt="Logo vom Club Behinderte und Ihrer Freunde Darmstadt"></a>
                 <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt="Logo von Chameleo Eventsupport"></a>
                 <a href="https://freitag-artists.de/" target="_blank"><img src="../_assets/images/other-company-logos/freitag-logo-150px.jpg" alt="Logo von Freitag Artists"></a>
                 <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt="Logo von Schneiders Obsthof"></a>
-                <a href="https://vollerlaw.com/" target="_blank"><img src="../_assets/images/other-company-logos/voller-logo-150px.jpg"
-                        alt="Logo von Voller Rechtsanwälte"></a>
+                <a href="https://vollerlaw.com/" target="_blank"><img src="../_assets/images/other-company-logos/voller-logo-150px.jpg" alt="Logo von Voller Rechtsanwälte"></a>
+            </div>
+            <div class="scroll-logos scroll-logos2">
+                <a target="_blank" href="https://www.hpp-consulting.de/"><img src="../_assets/images/other-company-logos/hpp-logo-150px.png" alt="Logo von HPP Strategie- und Marketingberatung"></a>
+                <a target="_blank" href="https://www.cbf-da.de/index.html"><img src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt="Logo vom Club Behinderte und Ihrer Freunde Darmstadt"></a>
+                <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt="Logo von Chameleo Eventsupport"></a>
+                <a href="https://freitag-artists.de/" target="_blank"><img src="../_assets/images/other-company-logos/freitag-logo-150px.jpg" alt="Logo von Freitag Artists"></a>
+                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt="Logo von Schneiders Obsthof"></a>
+                <a href="https://vollerlaw.com/" target="_blank"><img src="../_assets/images/other-company-logos/voller-logo-150px.jpg" alt="Logo von Voller Rechtsanwälte"></a>
             </div>
         </div>
     </section>
