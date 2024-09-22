@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt Formular!</title>
 </head>
-<body style="background-color: rgb(250, 204, 21); background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 40%, rgb(250, 210, 25)) 80%;">
+<body style="background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 40%, rgb(250, 210, 25)) 80%;">
     <table style="background-color: rgb(250, 204, 21); background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 40%, rgb(250, 210, 25)) 80%;">
         <tr><a style="text-decoration: none; color: black; font-family: sans-serif, Helvetica, Arial, 'Times New Roman', system-ui, -apple-system; font-size: 25px; font-weight: 700; display: inline-block; margin-left: 20px;" href="http://tp.eickmann.com/home/"><img onerror="this.style.display = 'none';" style="height: 65px; margin-bottom: -22px; margin-right: -37px;" src="http://tp.eickmann.com/_assets/images/logos/blue_mouse.png" alt="Logo von Eickmann Computer"> eickmann computer</a></tr>
     
