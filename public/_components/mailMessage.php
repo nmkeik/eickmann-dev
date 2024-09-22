@@ -17,9 +17,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt Formular!</title>
 </head>
-<body style="background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 40%, rgb(250, 210, 25)) 80%;">
-    <table style="background-color: rgb(250, 204, 21); background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 40%, rgb(250, 210, 25)) 80%;">
-        <tr><a style="text-decoration: none; color: black; font-family: sans-serif, Helvetica, Arial, 'Times New Roman', system-ui, -apple-system; font-size: 25px; font-weight: 700; display: inline-block; margin-left: 20px;" href="http://tp.eickmann.com/home/"><img style="height: 65px;" src="http://tp.eickmann.com/_assets/images/logos/blue_mouse_text.png" alt="eickmann computer"></a></tr>
+<body style="background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 40%, rgb(250, 210, 25)) 80%; margin: 0; padding: 0;width: 100vw;">
+    <table style="background-color: rgb(250, 204, 21); background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 40%, rgb(250, 210, 25)) 80%; margin: 0; width: 100%;">
+        <tr><a style="text-decoration: none; color: black; font-family: sans-serif, Helvetica, Arial, 'Times New Roman', system-ui, -apple-system; font-size: 25px; font-weight: 700; display: inline-block; margin-left: 20px; margin-top: 20px;" href="http://tp.eickmann.com/home/"><img style="height: 65px;" src="http://tp.eickmann.com/_assets/images/logos/blue_mouse_text.png" alt="eickmann computer"></a></tr>
     
         <tr><h1 style="text-wrap: balance; font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system; text-align: center; margin-bottom: 5px;">Danke für ihre Nachricht an Uns.</h1></tr>
         <tr><h2 style="text-wrap: balance; font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system; text-align: center; margin-top: 0; margin-bottom: 50px;">Wir werden uns schnellst möglich bei ihnen melden.</h2></tr>
@@ -28,9 +28,9 @@
         <tr><table style="max-width: 600px; margin: auto; border-bottom: 1px solid black; border-right: 1px solid black; border-spacing: 0; background-color: white;"><?= $table ?></table></tr>
 
         <tr><h3 style="font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system; text-align: center; margin-top: 50px;">Ihre Nachricht an Uns:</h3></tr>
-        <tr><p style="font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system; max-width: 800px; margin: auto; padding: 20px; border: 1px solid black; border-radius: 10px; background-color: white;"><?= @$message ?></p></tr>
+        <tr><p style="font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system; max-width: 500px; margin: auto; padding: 20px; border: 1px solid black; border-radius: 10px; background-color: white;"><?= @$message ?></p></tr>
         <tr>
-            <p style="font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system;max-width: 1000px; margin: auto; margin-top: 50px; text-align: center;">
+            <p style="font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system;max-width: 1000px; margin: auto; margin-top: 50px; text-align: center; margin-bottom: 100px;">
                 <a href="https://eickmann.com/home/">Eickmann Computer</a>
                 <a href="https://eickmann.com/privacyAgreement/">Datenschutzerklärung</a>
                 <a href="https://eickmann.com/agb/">AGBs</a>
