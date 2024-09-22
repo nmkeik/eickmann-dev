@@ -1,4 +1,5 @@
 <?php 
+if($_SERVER['REMOTE_ADDR'] !== '77.184.209.162') abort();
 require '../functions.php';
 $info = array('Vorname'=> 'Max','Nachname'=> 'Mustermann','E-Mail'=> 'max@mustermann.de') ;
 $category = array('Beratung' => True, 'Hardware, Verkauf und Service' => True);
