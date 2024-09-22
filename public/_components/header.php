@@ -1,18 +1,18 @@
 <script src="../_javascript/emailcrypt.js"></script>
 <header class="flex-center"> 
     <!--logo right top-->
-    <a href="/home/"><img fetchpriority="high" loading="lazy" id="logo" src="../_assets/images/logos/blue_mouse.png" alt="Logo mit Link zur Startseite"></a>
+    <a href="/home/"><img fetchpriority="high" loading="lazy" id="logo" src="../_assets/images/logos/blue_mouse.png" alt="Logo von Eickmann Computer mit Link zur Startseite"></a>
 
     <div id="contact-links">
         <a href="https://goo.gl/maps/H5CxB4g5Y1rfu8Qp8" target="_blank">
-            <img fetchpriority="high" loading="lazy" src="../_assets/icons/location-dot-solid.svg">
+            <img fetchpriority="high" loading="lazy" src="../_assets/icons/location-dot-solid.svg" alt="Link zu der Adresse von eickmann computer auf Google Maps">
             <span>&nbsp;In der Römerstadt 259</span>
         </a>
         <a href="tel:069-763409" target="_blank">
-            <img fetchpriority="high" loading="lazy" src="../_assets/icons/phone-solid.svg">
+            <img fetchpriority="high" loading="lazy" src="../_assets/icons/phone-solid.svg" alt="Link zur Telefonnummer von eickmann computer">
             <span>069-763409</span>
         </a>
-        <script>emailshort('mail AT eickmann PUNKT com','<img fetchpriority="high" loading="lazy" src="../_assets/icons/envelope-solid.svg"><span>mail@eickmann.com</span>');</script>
+        <script>emailshort('mail AT eickmann PUNKT com','<img fetchpriority="high" loading="lazy" src="../_assets/icons/envelope-solid.svg" alt="Link zur E-Mail Adresse von eickmann computer"><span>mail@eickmann.com</span>');</script>
     </div>
 
     <div id="hamburger" onclick="activateHamburgerMenu()">

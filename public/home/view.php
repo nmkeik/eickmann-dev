@@ -8,7 +8,7 @@
     <section id="box1">
 
 
-        <img fetchpriority="high" loading="lazy" id="walking-mouse" src="../_assets/images/logos/lauf_maus.svg" alt="Logo Bild">
+        <img fetchpriority="high" loading="lazy" id="walking-mouse" src="../_assets/images/logos/lauf_maus.svg" alt="Logo Bild von einer laufenden Maus mit einer Tastatur unter dem Arm">
 
         <div class="box1-right">
 
@@ -60,7 +60,7 @@
             <!--Info Block Beratung-->
             <a href="/services/#beratung-section">
                 <div class="box2-inner-boxes">
-                    <img loading="lazy" src="../_assets/images/general/beratung-1000px.jpg" alt="Bild für Beratungabschnitt">
+                    <img loading="lazy" src="../_assets/images/general/beratung-1000px.jpg" alt="Bild zum Abschnitt Beratung, zeigt Herrn Eickmann bei der Beratung eines Kunden">
                     <h2>
                         Beratung
                     </h2>
@@ -74,7 +74,7 @@
             <!--Info Block Hardware Verkauf & Service-->
             <a href="/services/#hardware-section">
                 <div class="box2-inner-boxes">
-                    <img loading="lazy" src="../_assets/images/general/hardware-1000px.jpg" alt="Bild für Hardware Abschnitt">
+                    <img loading="lazy" src="../_assets/images/general/hardware-1000px.jpg" alt="Bild zum Abschnitt Hardware, Verkauf und Service zeigt Herrn Eickmann bei der Reperatur eines Computers">
                     <h2>
                         Hardware<br>Verkauf und Service
                     </h2>
@@ -89,7 +89,7 @@
                 <!--Info Block Software & Betriebssysteme-->
                 <a href="/services/#software-section">
                     <div class="box2-inner-boxes">
-                        <img loading="lazy" src="../_assets/images/general/monitore-1000px.jpg" alt="Bild Software Abschnitt">
+                        <img loading="lazy" src="../_assets/images/general/monitore-1000px.jpg" alt="Bild zum Abschnitt Software und Betriebssysteme, zeigt mehrere Bildschirme mit verschiedenen Versionen von Windows">
                         <h2>
                             Software & Betriebssysteme
                         </h2>
@@ -104,7 +104,7 @@
                 <!--Info Block Wartung & Support-->
                 <a href="/services/#wartung-section">
                     <div class="box2-inner-boxes">
-                        <img loading="lazy" src="../_assets/images/general/support-1000px.jpg" alt="Bild Wartung Abschnitt">
+                        <img loading="lazy" src="../_assets/images/general/support-1000px.jpg" alt="Bild zum Abschnitt Wartung und Support, zeigt Herr Eickmann und Herr Auer bei der Online Wartung">
                         <h2>
                             Wartung &<br> Support
                         </h2>
@@ -249,25 +249,25 @@
         <div id="scroll-container">
             <div class="scroll-logos">
                 <a target="_blank" href="https://www.hpp-consulting.de/"><img src="../_assets/images/other-company-logos/hpp-logo-150px.png"
-                        alt=""></a>
+                        alt="Logo von HPP Strategie- und Marketingberatung"></a>
                 <a target="_blank" href="https://www.cbf-da.de/index.html"><img
-                        src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt=""></a>
+                        src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt="Logo vom Club Behinderte und Ihrer Freunde Darmstadt"></a>
                 <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img
-                        src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt=""></a>
-                <a href="https://freitag-artists.de/" target="_blank"><img src="../_assets/images/other-company-logos/freitag-logo-150px.jpg" alt=""></a>
-                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt=""></a>
+                        src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt="Logo von Chameleo Eventsupport"></a>
+                <a href="https://freitag-artists.de/" target="_blank"><img src="../_assets/images/other-company-logos/freitag-logo-150px.jpg" alt="Logo von Freitag Artists"></a>
+                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt="Logo von Schneiders Obsthof"></a>
                 <a href="https://vollerlaw.com/" target="_blank"><img src="../_assets/images/other-company-logos/voller-logo-150px.jpg"
-                        alt=""></a>
+                        alt="Logo von Voller Rechtsanwälte"></a>
             </div>
             <div class="scroll-logos scroll-logos2">
                 <a target="_blank" href="https://www.hpp-consulting.de/"><img src="../_assets/images/other-company-logos/hpp-logo-150px.png"
-                        alt=""></a>
-                <a target="_blank" href="https://www.cbf-da.de/index.html"><img src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt=""></a>
-                <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt=""></a>
-                <a href="https://freitag-artists.de/" target="_blank"><img src="../_assets/images/other-company-logos/freitag-logo-150px.jpg" alt=""></a>
-                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt=""></a>
+                        alt="Logo von HPP Strategie- und Marketingberatung"></a>
+                <a target="_blank" href="https://www.cbf-da.de/index.html"><img src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt="Logo vom Club Behinderte und Ihrer Freunde Darmstadt"></a>
+                <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt="Logo von Chameleo Eventsupport"></a>
+                <a href="https://freitag-artists.de/" target="_blank"><img src="../_assets/images/other-company-logos/freitag-logo-150px.jpg" alt="Logo von Freitag Artists"></a>
+                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt="Logo von Schneiders Obsthof"></a>
                 <a href="https://vollerlaw.com/" target="_blank"><img src="../_assets/images/other-company-logos/voller-logo-150px.jpg"
-                        alt=""></a>
+                        alt="Logo von Voller Rechtsanwälte"></a>
             </div>
         </div>
     </section>

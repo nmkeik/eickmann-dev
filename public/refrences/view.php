@@ -69,17 +69,17 @@
         <div id="scroll-container">
             <div class="scroll-logos">
                 <a target="_blank" href="https://www.hpp-consulting.de/"><img src="../_assets/images/other-company-logos/hpp-logo-150px.png"
-                        alt=""></a>
-                <a target="_blank" href="https://www.cbf-da.de/index.html"><img src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt=""></a>
-                <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt=""></a>
-                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt=""></a>
+                        alt="Logo von HPP Strategie- und Marketingberatung"></a>
+                <a target="_blank" href="https://www.cbf-da.de/index.html"><img src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt="Logo vom Club Behinderte und Ihrer Freunde Darmstadt"></a>
+                <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt="Logo von Chameleo Eventsupport"></a>
+                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt="Logo von Schneiders Obsthof"></a>
             </div>
             <div class="scroll-logos scroll-logos2">
                 <a target="_blank" href="https://www.hpp-consulting.de/"><img src="../_assets/images/other-company-logos/hpp-logo-150px.png"
-                        alt=""></a>
-                <a target="_blank" href="https://www.cbf-da.de/index.html"><img src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt=""></a>
-                <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt=""></a>
-                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt=""></a>
+                        alt="Logo von HPP Strategie- und Marketingberatung"></a>
+                <a target="_blank" href="https://www.cbf-da.de/index.html"><img src="../_assets/images/other-company-logos/cbf-logo-150px.jpg" alt="Logo vom Club Behinderte und Ihrer Freunde Darmstadt"></a>
+                <a target="_blank" href="https://chamaeleo-eventsupport.de/"><img src="../_assets/images/other-company-logos/chameleo-logo-150px.png" alt="Logo von Chameleo Eventsupport"></a>
+                <a target="_blank" href="https://www.schneiders-obsthof.de/"><img src="../_assets/images/other-company-logos/schneider-logo-150px.jpg" alt="Logo von Schneiders Obsthof"></a>
             </div>
         </div>
     </section>

@@ -44,7 +44,7 @@
         <div class="picture-title">
             <div class="img-box">
                 <span class="overlay"></span>
-                <img loading="lazy" src="../_assets/images/general/beratung-1000px.jpg" alt="Bild von Beratung">
+                <img loading="lazy" src="../_assets/images/general/beratung-1000px.jpg" alt="Bild zum Abschnitt Beratung, zeigt Herrn Eickmann bei der Beratung eines Kunden">
             </div>
             <h1>Beratung</h1>
         </div>
@@ -78,7 +78,7 @@
         <div class="picture-title">
             <div class="img-box">
                 <span class="overlay"></span>
-                <img loading="lazy" src="../_assets/images/general/hardware-1000px.jpg" alt="Hardware Bild">
+                <img loading="lazy" src="../_assets/images/general/hardware-1000px.jpg" alt="Bild zum Abschnitt Hardware, Verkauf und Service zeigt Herrn Eickmann bei der Reperatur eines Computers">
             </div>
             <h1>Hardware, Verkauf & Service</h1>
         </div>
@@ -88,7 +88,7 @@
         <div class="picture-title">
             <div class="img-box">
                 <span class="overlay"></span>
-                <img loading="lazy" src="../_assets/images/general/monitore-1000px.jpg" alt="Bild von Beratung">
+                <img loading="lazy" src="../_assets/images/general/monitore-1000px.jpg" alt="Bild zum Abschnitt Software und Betriebssysteme, zeigt mehrere Bildschirme mit verschiedenen Versionen von Windows">
             </div>
             <h1>Software & Betriebssysteme</h1>
         </div>
@@ -126,7 +126,7 @@
         <div class="picture-title">
             <div class="img-box">
                 <span class="overlay"></span>
-                <img loading="lazy" src="../_assets/images/general/support-1000px.jpg" alt="Hardware Bild">
+                <img loading="lazy" src="../_assets/images/general/support-1000px.jpg" alt="Bild zum Abschnitt Wartung und Support, zeigt Herr Eickmann und Herr Auer bei der Online Wartung">
             </div>
             <h1>Wartung & Support</h1>
         </div>
