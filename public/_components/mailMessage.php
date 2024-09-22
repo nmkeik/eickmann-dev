@@ -19,7 +19,7 @@
 </head>
 <body style="background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 40%, rgb(250, 210, 25)) 80%;">
     <table style="background-color: rgb(250, 204, 21); background: linear-gradient(to right, rgb(234, 179, 8) 0%, rgb(250, 204, 21) 40%, rgb(250, 210, 25)) 80%;">
-        <tr><a style="text-decoration: none; color: black; font-family: sans-serif, Helvetica, Arial, 'Times New Roman', system-ui, -apple-system; font-size: 25px; font-weight: 700; display: inline-block; margin-left: 20px;" href="http://tp.eickmann.com/home/"><img onerror="this.style.display = 'none';" style="height: 65px; margin-bottom: -22px; margin-right: -37px;" src="http://tp.eickmann.com/_assets/images/logos/blue_mouse.png" alt="Logo von Eickmann Computer"> eickmann computer</a></tr>
+        <tr><a style="text-decoration: none; color: black; font-family: sans-serif, Helvetica, Arial, 'Times New Roman', system-ui, -apple-system; font-size: 25px; font-weight: 700; display: inline-block; margin-left: 20px;" href="http://tp.eickmann.com/home/"><img style="height: 65px;" src="http://tp.eickmann.com/_assets/images/logos/blue_mouse_text.png" alt="eickmann computer"></a></tr>
     
         <tr><h1 style="text-wrap: balance; font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system; text-align: center; margin-bottom: 5px;">Danke für ihre Nachricht an Uns.</h1></tr>
         <tr><h2 style="text-wrap: balance; font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system; text-align: center; margin-top: 0; margin-bottom: 50px;">Wir werden uns schnellst möglich bei ihnen melden.</h2></tr>
