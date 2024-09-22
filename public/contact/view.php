@@ -7,7 +7,7 @@ if(isset($_POST['Vorname']) && isset($_POST['Nachname']) && isset($_POST['E-Mail
             'Content-type'=> 'text/html;charset=UTF-8',
             'From'=> 'Eickmann Computer <mail@eickmann.com>',
             'Reply-To'=> 'mail@eickmann.com',
-            'BCC'=> 'max@eickmann.com',
+            'BCC'=> 'nmk.eickmann@gmail.com',
         );
 
         $info = array(

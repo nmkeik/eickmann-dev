@@ -4,9 +4,11 @@
         $table .= "<tr>\n<th style='font-family: sans-serif, Arial, Helvetica, system-ui, -apple-system; text-align: left; padding: 10px; width: 50%; border-top: 1px solid black; border-left: 1px solid black;'>$key</th>\n<th style='font-family: sans-serif, Arial, Helvetica, system-ui, -apple-system; text-align: left; padding: 10px; width: 50%; border-top: 1px solid black; border-left: 1px solid black;'>$value</th></tr>";
     }
     if(!empty(@$category)) {
+        $table .= "<tr>\n<th style='font-family: sans-serif, Arial, Helvetica, system-ui, -apple-system; text-align: left; padding: 10px; width: 50%; border-top: 1px solid black; border-left: 1px solid black;'>Kategorie(-n)</th>\n<th style='font-family: sans-serif, Arial, Helvetica, system-ui, -apple-system; text-align: left; padding: 10px; width: 50%; border-top: 1px solid black; border-left: 1px solid black;'>\n";
         foreach (@$category as $key => $value) {
-            $table .= "<tr>\n<th style='font-family: sans-serif, Arial, Helvetica, system-ui, -apple-system; text-align: left; padding: 10px; width: 50%; border-top: 1px solid black; border-left: 1px solid black;'>$key</th>\n<th style='font-family: sans-serif, Arial, Helvetica, system-ui, -apple-system; text-align: center; padding: 10px; width: 50%; border-top: 1px solid black; border-left: 1px solid black;'>&#9745</th></tr>";
+            $table .= "- $key<br>";
         }
+        $table .= "</th>\n</tr>";
     }
 ?>
 
@@ -30,11 +32,11 @@
         <tr><h3 style="font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system; text-align: center; margin-top: 50px;">Ihre Nachricht an Uns:</h3></tr>
         <tr><p style="font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system; max-width: 500px; margin: auto; padding: 20px; border: 1px solid black; border-radius: 10px; background-color: white;"><?= @$message ?></p></tr>
         <tr>
-            <p style="font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system;max-width: 1000px; margin: auto; margin-top: 50px; text-align: center; margin-bottom: 100px;">
-                <a href="https://eickmann.com/home/">Eickmann Computer</a>
-                <a href="https://eickmann.com/privacyAgreement/">Datenschutzerklärung</a>
-                <a href="https://eickmann.com/agb/">AGBs</a>
-                <a href="https://eickmann.com/impressum/">Impressum</a>
+            <p style="font-family: sans-serif, Arial, Helvetica, 'Times New Roman', system-ui, -apple-system;max-width: 1000px; margin: auto; margin-top: 100px; text-align: center; padding-bottom: 100px;">
+                <a style="padding: 0 6px;" href="https://eickmann.com/home/">Eickmann Computer</a>
+                <a style="padding: 0 6px;" href="https://eickmann.com/privacyAgreement/">Datenschutzerklärung</a>
+                <a style="padding: 0 6px;" href="https://eickmann.com/agb/">AGBs</a>
+                <a style="padding: 0 6px;" href="https://eickmann.com/impressum/">Impressum</a>
             </p>
         </tr>
         
