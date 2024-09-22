@@ -17,7 +17,7 @@ header {
 
 main {
     width: 100%;
-    padding: 20px 0 30px 0;
+    padding: 20px 0 100px 0;
     font-size: 20px;
 
     h1 {
@@ -119,6 +119,7 @@ main {
             margin-left: 0;
             margin-top: 15vw;
             padding: 33vw 16vw 10vw;
+            min-width: 180px;
 
             h2, h3, p {
                 margin-left: 0;
@@ -139,6 +140,20 @@ main {
             }
         }
 
+        }
+
+        @media screen and (max-width: rem(600)) {
+            .content {
+                h2 {
+                    font-size: rem(55);
+                }
+                h3 {
+                    font-size: rem(35);
+                }
+                p {
+                    font-size: rem(30);
+                }
+            }
         }
     }
 }
