@@ -25,6 +25,7 @@
     <nav class="nav-bar">
         <a href='/home/' <?= $path === "/home/" ? "class='active-page'" : "" ?> >Startseite</a>
         <a href="/services/" id="leistungen-link" <?= $path === '/services/' ? "class='active-page'" : "" ?> >Leistungen&#x25BE;</a>
+        <a id="leistungen-link-small" <?= $path === '/services/' ? "class='active-page'" : "" ?> >Leistungen&#x25BE;</a>
         <a href="/contact/" <?= $path === '/contact/' ? "class='active-page'" : '' ?> >Kontakt</a>
         <a href="/fernwartung/"<?= $path === '/fernwartung/' ? "class='active-page'" : "" ?>>Fernwartung</a>
         <a id="ueber-uns-link" <?= in_array($path, [

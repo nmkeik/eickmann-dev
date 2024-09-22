@@ -19,24 +19,30 @@ function activateHamburgerMenu() {
 //Leistungen Drop Down Menu
 const dropDownLeistungen = document.querySelector("#drop-down");
 const leistungenLink = document.querySelector("#leistungen-link");
+const leistungenLinkSmall = document.querySelector("#leistungen-link-small");
 
 leistungenLink.addEventListener("mouseover", showDropDown);
+leistungenLinkSmall.addEventListener("mouseover", showDropDown);
 dropDownLeistungen.addEventListener("mouseover", showDropDown);
 
 leistungenLink.addEventListener("mouseout", hideDropDown);
+leistungenLinkSmall.addEventListener("mouseout", hideDropDown);
 dropDownLeistungen.addEventListener("mouseout", hideDropDown);
 
 let dropDownState = false;
 leistungenLink.addEventListener("touchstart", clickDropDown);
+leistungenLinkSmall.addEventListener("touchstart", clickDropDown);
 
 function showDropDown() {
-  const pos = leistungenLink.getBoundingClientRect();
+  let leistungen = window.getComputedStyle(leistungenLink, null).display === "none" ? leistungenLinkSmall : leistungenLink;  
+  console.log(leistungen);
+  let pos = leistungen.getBoundingClientRect();
 
-  leistungenLink.classList.add("active-hover");
+  leistungen.classList.add("active-hover");
   dropDownLeistungen.classList.remove("hidden");
   dropDownLeistungen.classList.add("drop-down");
 
-  const left = pos.left + (0.5 * leistungenLink.offsetWidth) - (0.5 * dropDownLeistungen.offsetWidth);
+  const left = pos.left + (0.5 * leistungen.offsetWidth) - (0.5 * dropDownLeistungen.offsetWidth);
 
   dropDownLeistungen.style.top = pos.bottom+'px';
   dropDownLeistungen.style.left = left+'px';

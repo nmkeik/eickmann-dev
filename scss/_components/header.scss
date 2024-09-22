@@ -47,6 +47,20 @@ header {
             }
         }
 
+        #leistungen-link-small {
+            display: none;
+        }
+
+        @media (pointer: coarse) {
+            #leistungen-link {
+                display: none;
+            }
+
+            #leistungen-link-small {
+                display: inline-block;
+            }
+        }
+
         .nav-bar {
             a {
                 margin: 0 2px;

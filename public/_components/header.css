@@ -43,6 +43,19 @@ header {
   header #contact-links a:hover img {
     filter: invert(67%) sepia(94%) saturate(727%) hue-rotate(0deg) brightness(105%) contrast(103%);
   }
+  header #leistungen-link-small {
+    display: none;
+  }
+}
+@media screen and (pointer: coarse) {
+  header #leistungen-link {
+    display: none;
+  }
+  header #leistungen-link-small {
+    display: inline-block;
+  }
+}
+@media screen {
   header .nav-bar a {
     margin: 0 2px;
     display: inline-block;
