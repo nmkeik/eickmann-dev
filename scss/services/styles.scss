@@ -6,17 +6,17 @@
         color: var(--secondary-color);
 
         .picture-title {
-            border-radius: 100px;
+            border-radius: rem(100);
             width: 40%;
-            max-width: 670px;
-            margin: 50px 2% 50px 8%;
+            max-width: rem(670);
+            margin: rem(50) 2% rem(50) 8%;
             display: flex;
             position: relative;
             text-align: center;
             align-items: center;
-            height: 450px;
+            height: rem(450);
             overflow: hidden;
-            box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 rem(5) rem(1) rgba(0, 0, 0, 0.5);
 
             .img-box {
                 z-index: 1;
@@ -41,13 +41,13 @@
 
             h1 {
                 position: absolute;
-                font-size: 70px;
+                font-size: rem(70);
                 width: 96%;
                 padding: 0 2%;
                 color: white;
-                //text-shadow: 5px 5px 5px var(--secondary-color);
+                //text-shadow: rem(5) rem(5) rem(5) var(--secondary-color);
                 z-index: 3;
-                // margin-right: 50px;
+                // margin-right: rem(50);
             }
         }
 
@@ -58,34 +58,34 @@
             align-items: center;
             
             p {
-                // margin-left: 50px;
-                width: 500px;
-                font-size: 18px;
+                // margin-left: rem(50);
+                width: rem(500);
+                font-size: rem(18);
             }
         }
     }
 
-    @media screen and (max-width: 1500px) {
+    @media screen and (max-width: rem(1500)) {
         .picture-title {
             h1 {
-                font-size: 50px;
+                font-size: rem(50);
             }
         }
     }
 
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: rem(1150)) {
         display: flex;
         flex-wrap: wrap;
         position: relative;
 
         .picture-title {
-            height: 600px;
+            height: rem(600);
             width: 90%;
-            margin: 50px 5% 50px 5%;
+            margin: rem(50) 5% rem(50) 5%;
             align-items: flex-start;
             h1 {
-                font-size: 50px;
-                margin-top: 40px;
+                font-size: rem(50);
+                margin-top: rem(40);
             }
 
             .img-box {
@@ -97,10 +97,10 @@
 
         .content {
             width: 100%;
-            max-width: 670px;
+            max-width: rem(670);
             margin-left: 0;
             margin-right: 0;
-            margin-top: 50px;
+            margin-top: rem(50);
             position: absolute;
             text-align: center;
 
@@ -112,31 +112,31 @@
         }
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: rem(700)) {
         .picture-title {
-            height: 650px;
+            height: rem(650);
             width: 90%;
-            margin: 50px 5% 50px 5%;
+            margin: rem(50) 5% rem(50) 5%;
             
             .img-box {
                 img {
-                    height: 640px;
+                    height: rem(640);
                     width:max-content;
                 }
             }
             
             h1 {
-                font-size: 40px;
+                font-size: rem(40);
             }
         }
 
         .content {
             width: 90%;
-            margin-top: 50px;
+            margin-top: rem(50);
 
             p {
                 width: 80%;
-                font-size: 15px;
+                font-size: rem(15);
             }
         }
     }
@@ -152,18 +152,18 @@
             p {
                 text-align: right;
                 margin-left: 0;
-                margin-right: 50px;
+                margin-right: rem(50);
             }
         }
 
         .picture-title {
-            margin: 50px 8% 50px 2%;
-            box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+            margin: rem(50) 8% rem(50) 2%;
+            box-shadow: 0 0 rem(5) rem(1) rgba(0, 0, 0, 0.5);
             
         }
     }
 
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: rem(1150)) {
         flex-wrap: wrap-reverse;
         .content {
             align-items: center;
@@ -175,17 +175,17 @@
         }
 
         .picture-title {
-            margin: 50px 5% 50px 5%;
+            margin: rem(50) 5% rem(50) 5%;
         }
     }
 }
 
 #beratung-section, #software-section {
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: rem(500)) {
         .content {
             p {
                 text-align: center;
-                font-size: 13.5px;
+                font-size: rem(13.5);
                 margin-left: 5%;
             }
         }
@@ -194,7 +194,7 @@
 }
 
 #beratung-section {
-    padding-top: 15px;
+    padding-top: rem(15);
 
     background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-180deg.png");
     background-position: top;
@@ -208,16 +208,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: rem(1150)) {
         .content {
-            margin-top: 100px;
+            margin-top: rem(100);
         }
     }
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: rem(400)) {
         .picture-title {
             h1 {
-                font-size: 33px;
+                font-size: rem(33);
             }
         }
     }
@@ -226,8 +226,8 @@
 #angebot-section {
     @media screen {
 
-        padding: 50px;
-        padding-bottom: 70px;
+        padding: rem(50);
+        padding-bottom: rem(70);
         background-image: url("../_assets/images/background-images/visitenkarte-hintergrund.png");
         background-position: bottom;
         background-repeat: no-repeat;
@@ -243,11 +243,11 @@
 
             h2 {
                 color: var(--secondary-color);
-                //text-shadow: 0px 0px 8px black;
-                font-size: 40px;
-                height: 120px;
+                //text-shadow: 0 0 rem(8) black;
+                font-size: rem(40);
+                height: rem(120);
                 text-align: center;
-                margin-bottom: 20px;
+                margin-bottom: rem(20);
                 z-index: 100;
 
             }
@@ -255,25 +255,25 @@
             ul {
                 color: var(--secondary-color);
                 background-color: white;
-                box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.5);
-                border-radius: 100px;
+                box-shadow: 0 0 rem(5) rem(0.5) rgba(0, 0, 0, 0.5);
+                border-radius: rem(100);
                 width: 80%;
-                min-height: 330px;
-                padding: 50px;
-                padding-top: 60px;
-                font-size: 15px;
+                min-height: rem(330);
+                padding: rem(50);
+                padding-top: rem(60);
+                font-size: rem(15);
 
                 li {
-                    margin-left: 60px;
-                    margin-right: 40px;
+                    margin-left: rem(60);
+                    margin-right: rem(40);
                     width: 80%;
-                    margin-bottom: 10px;
+                    margin-bottom: rem(10);
                 }
             }
         }
     }
 
-    @media screen and (max-width: 1250px) {
+    @media screen and (max-width: rem(1250)) {
         background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-90deg.png");
         background-position: center;
         display: flex;
@@ -284,27 +284,27 @@
             width: 80%;
 
             h2 {
-                font-size: 25px;
+                font-size: rem(25);
                 height: auto;
             }
 
             ul {
-                padding: 25px;
-                padding-top: 35px;
-                border-radius: 50px;
-                margin-bottom: 50px;
+                padding: rem(25);
+                padding-top: rem(35);
+                border-radius: rem(50);
+                margin-bottom: rem(50);
                 li {
-                    margin-left: 25px;
+                    margin-left: rem(25);
                 }
             }
         }
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: rem(500)) {
         article {
             width: 90%;
             h2 {
-                font-size: 18px;
+                font-size: rem(18);
             }
         }
 
@@ -313,14 +313,14 @@
 }
 
 #wartung-section {
-    @media screen and (max-width: 720px) {
-        padding-bottom: 25px;        
+    @media screen and (max-width: rem(720)) {
+        padding-bottom: rem(25);        
     }
 }
 
 #page-seperator {
     width: 100%;
-    height: 100px;
+    height: rem(100);
     background-color: var(--secondary-color);
     display: flex;
     justify-content: center;
@@ -330,27 +330,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: auto 20px;
-        height: 40px;
-        width: 40px;
-        border: 4px solid whitesmoke;
-        border-radius: 30px;
+        margin: auto rem(20);
+        height: rem(40);
+        width: rem(40);
+        border: rem(4) solid whitesmoke;
+        border-radius: rem(30);
 
         #arrow-left-side, #arrow-right-side {
             display: block;
-            width: 20px;
-            height: 4px;
+            width: rem(20);
+            height: rem(4);
             background-color: whitesmoke;
         }
     
         #arrow-left-side {
             rotate: 45deg;
-            margin-right: -4px;
+            margin-right: -rem(4);
         }
     
         #arrow-right-side {
             rotate: -45deg;
-            margin-left: -4px;
+            margin-left: -rem(4);
         }
     }
 
@@ -358,25 +358,25 @@
 
     #text-left-side, #text-right-side {
         color: white;
-        font-size: 40px;
+        font-size: rem(40);
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: rem(700)) {
         #text-left-side, #text-right-side {
-            font-size: 30px;
+            font-size: rem(30);
         }
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: rem(600)) {
         #text-left-side, #text-right-side {
-            font-size: 25px;
+            font-size: rem(25);
         }
     }
 
-    @media screen and (max-width: 500px) {
-        height: 150px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+    @media screen and (max-width: rem(500)) {
+        height: rem(150);
+        padding-top: rem(15);
+        padding-bottom: rem(15);
         flex-direction: column;
     }
 

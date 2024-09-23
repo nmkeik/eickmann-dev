@@ -6,26 +6,26 @@ body {
     background-repeat: repeat;
     background-size: 200vw 355vw;
     background-color: rgb(255, 255, 255);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(rem(20));
 }
 
 main {
-    margin: 20px 50px 0px 60px;
-    padding-bottom: 30px;
-    font-size: 20px;
+    margin: rem(20) rem(50) 0 rem(60);
+    padding-bottom: rem(30);
+    font-size: rem(20);
 
     #h1-broken-up {
         display: none;
     }
 
     h1 {
-        font-size: 50px;
-        padding: 0px 0px 20px;
-        margin-left: -20px;
+        font-size: rem(50);
+        padding: 0 0 rem(20);
+        margin-left: -rem(20);
     }
 
     p {
-        margin: 15px 0;
+        margin: rem(15) 0;
         font-weight: 500;
     }
 
@@ -34,12 +34,12 @@ main {
         counter-reset: item;
     }
     li {
-        margin-top: 50px;
+        margin-top: rem(50);
         font-weight: 700;
         display: block;
 
         ol {
-            margin-left: 50px;
+            margin-left: rem(50);
 
             li {
                 ol {
@@ -60,14 +60,14 @@ main {
         li {
             font-weight: 500;
         }
-        margin-bottom: 30px;
+        margin-bottom: rem(30);
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: rem(700)) {
     main {
         margin-left: 0;
-        margin-right: 20px;
+        margin-right: rem(20);
 
         #h1-normal {
             display: none;
@@ -75,7 +75,7 @@ main {
 
         #h1-broken-up {
             display: block;
-            font-size: 40px;
+            font-size: rem(40);
         }
 
         h1 {
@@ -85,7 +85,7 @@ main {
         }
 
         p, ol {
-            margin-left: 20px;
+            margin-left: rem(20);
         }
 
         ol {

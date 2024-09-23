@@ -1,7 +1,6 @@
 :root {
   --main-color: rgb(255, 202, 1);
   --secondary-color: rgb(40, 40, 40);
-  font-size: 10px;
 }
 
 * {
@@ -38,10 +37,10 @@ section {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  margin: 20px;
-  padding: 50px 0px;
+  margin: 1.25rem;
+  padding: 3.125rem 0;
   background-color: var(--secondary-color);
-  border-radius: 30px;
+  border-radius: 1.875rem;
   color: white;
 }
 
@@ -52,26 +51,26 @@ section {
   text-align: center;
 }
 #thank-you-text-div h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 #thank-you-text-div h2 {
-  font-size: 35px;
+  font-size: 2.1875rem;
 }
 
 #thank-you-btn-div {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 #thank-you-btn-div button {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 500;
   color: var(--secondary-color);
-  padding: 10px;
+  padding: 0.625rem;
   background-color: white;
-  border: 2px solid rgb(55, 54, 54);
-  border-radius: 30px;
-  box-shadow: 3px 3px 10px grey;
+  border: 0.125rem solid rgb(55, 54, 54);
+  border-radius: 1.875rem;
+  box-shadow: 0.1875rem 0.1875rem 0.625rem grey;
   cursor: pointer;
 }
 #thank-you-btn-div button:hover {
-  box-shadow: 3px 3px 15px black;
+  box-shadow: 0.1875rem 0.1875rem 0.9375rem black;
 }

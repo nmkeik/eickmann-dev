@@ -1,7 +1,6 @@
 :root {
   --main-color: rgb(255, 202, 1);
   --secondary-color: rgb(40, 40, 40);
-  font-size: 10px;
 }
 
 * {
@@ -31,25 +30,25 @@ body {
   background-repeat: repeat;
   background-size: 200vw 355vw;
   background-color: rgb(255, 255, 255);
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(1.25rem);
+          backdrop-filter: blur(1.25rem);
 }
 
 main {
-  margin: 20px 50px 0px 60px;
-  padding-bottom: 30px;
-  font-size: 20px;
+  margin: 1.25rem 3.125rem 0 3.75rem;
+  padding-bottom: 1.875rem;
+  font-size: 1.25rem;
 }
 main #h1-broken-up {
   display: none;
 }
 main h1 {
-  font-size: 50px;
-  padding: 0px 0px 20px;
-  margin-left: -20px;
+  font-size: 3.125rem;
+  padding: 0 0 1.25rem;
+  margin-left: -rem(20);
 }
 main p {
-  margin: 15px 0;
+  margin: 0.9375rem 0;
   font-weight: 500;
 }
 main ol {
@@ -57,12 +56,12 @@ main ol {
   counter-reset: item;
 }
 main li {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   font-weight: 700;
   display: block;
 }
 main li ol {
-  margin-left: 50px;
+  margin-left: 3.125rem;
 }
 main li ol li ol li {
   font-weight: 500;
@@ -72,23 +71,23 @@ main li:before {
   counter-increment: item;
 }
 main .li-fw-500 {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 main .li-fw-500 li {
   font-weight: 500;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 43.75rem) {
   main {
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 1.25rem;
   }
   main #h1-normal {
     display: none;
   }
   main #h1-broken-up {
     display: block;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   main h1 {
     margin-left: 0;
@@ -96,7 +95,7 @@ main .li-fw-500 li {
     text-align: center;
   }
   main p, main ol {
-    margin-left: 20px;
+    margin-left: 1.25rem;
   }
   main ol p, main ol li, main ol ol {
     margin-left: 0;

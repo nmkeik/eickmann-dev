@@ -8,7 +8,7 @@ body {
 		background-size: cover;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: rem(500)) {
     background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-90deg.png");
 		background-position: center;    
   }
@@ -19,13 +19,13 @@ body {
     display: block;
 
     h1 {
-      margin-left: 60px;
-      font-size: 6rem;
+      margin-left: rem(60);
+      font-size: rem(60);
       color: rgb(55, 54, 54);
     }
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: rem(500)) {
     h1 {
       margin: 0;
       text-align: center;
@@ -39,20 +39,20 @@ body {
     position: relative;
     form {
       width: 85%;
-      margin: 20px 60px;
+      margin: rem(20) rem(60);
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
       .text-input {
         display: block;
-        margin-bottom: 20px;
-        padding: 20px 5px 7px 7px;
-        font-size: 1.7rem;
+        margin-bottom: rem(20);
+        padding: rem(20) rem(5) rem(7) rem(7);
+        font-size: rem(17);
         border: none;
-        border-bottom: 1px solid;
+        border-bottom: rem(1) solid;
         border-color: black;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+        border-top-left-radius: rem(5);
+        border-top-right-radius: rem(5);
         background-color: rgba(121, 118, 118, 0.056);
         outline: none;
       }
@@ -66,7 +66,7 @@ body {
         position: absolute;
         display: block;
         background-color: var(--main-color);
-        height: 3px;
+        height: rem(3);
         width: 0%;
         animation: bottomBarShow 0.8s forwards ease-out;
       }
@@ -83,32 +83,32 @@ body {
 
       h2 {
         font-weight: 500;
-        font-size: 1.7rem;
+        font-size: rem(17);
         color: rgb(55, 54, 54);
-        margin-top: 3px;
-        margin-bottom: 12px;
+        margin-top: rem(3);
+        margin-bottom: rem(12);
       }
 
       div {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: rem(20);
 
         span {
           display: flex;
           align-items: center;
 
           input {
-            margin-right: 5px;
+            margin-right: rem(5);
             accent-color: var(--main-color);
           }
   
           h3 {
             font-weight: 500;
-            font-size: 1.7rem;
+            font-size: rem(17);
             color: rgb(55, 54, 54);
-            margin-right: 15px;
+            margin-right: rem(15);
           }
         }
 
@@ -116,13 +116,13 @@ body {
       }
 
       textarea {
-        max-height: 280px;
-        padding: 20px 5px 7px 7px;
-        font-size: 1.7rem;
+        max-height: rem(280);
+        padding: rem(20) rem(5) rem(7) rem(7);
+        font-size: rem(17);
         border: none;
-        border-radius: 5px;
+        border-radius: rem(5);
         background-color: white;
-        box-shadow: 0px 0px 10px 5px rgba(59, 59, 59, 0.085);
+        box-shadow: 0 0 rem(10) rem(5) rgba(59, 59, 59, 0.085);
         outline: none;
       }
 
@@ -132,23 +132,23 @@ body {
       }
 
       #privacy-agreement {
-        margin-top: 20px;
+        margin-top: rem(20);
         display: grid;
-        grid-template-columns: 45px auto;
+        grid-template-columns: rem(45) auto;
 
         input {
-          height: 20px;
-          margin-right: 25px;
+          height: rem(20);
+          margin-right: rem(25);
           accent-color: rgb(55, 54, 54);
           align-self: flex-start;
-          margin-top: 10px;
+          margin-top: rem(10);
         }
 
         p {
           font-weight: 500;
-          font-size: 1.7rem;
+          font-size: rem(17);
           color: rgb(55, 54, 54);
-          margin-right: 15px;
+          margin-right: rem(15);
 
           a {
             text-decoration: none;
@@ -158,15 +158,15 @@ body {
       }
 
       #send-btn {
-        font-size: 1.7rem;
+        font-size: rem(17);
         font-weight: 500;
         color: rgb(55, 54, 54);
-        margin-top: 20px;
-        padding: 10px;
-        width: 112px;
+        margin-top: rem(20);
+        padding: rem(10);
+        width: rem(112);
         background-color: transparent;
-        border: 2px solid rgb(55, 54, 54);
-        border-radius: 30px;
+        border: rem(2) solid rgb(55, 54, 54);
+        border-radius: rem(30);
       }
 
       #send-btn:hover {
@@ -175,10 +175,10 @@ body {
         cursor: pointer;
       }
     }
-    padding-bottom: 50px;
+    padding-bottom: rem(50);
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: rem(500)) {
     form {
       margin: 0;
       width: 100%;
@@ -191,8 +191,8 @@ body {
 
       h2 {
         text-align: center;
-        margin: 10px 20px;
-        font-size: 2rem;
+        margin: rem(10) rem(20);
+        font-size: rem(20);
         font-weight: 700;
       }
 
@@ -201,11 +201,11 @@ body {
         width: 80%;
 
         span {
-          margin: 8px 0 8px 0;
+          margin: rem(8) 0 rem(8) 0;
 
           input {
             align-self: flex-start;
-            margin-top: 6px;
+            margin-top: rem(6);
           }
         }
       }

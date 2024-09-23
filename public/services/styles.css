@@ -1,7 +1,6 @@
 :root {
   --main-color: rgb(255, 202, 1);
   --secondary-color: rgb(40, 40, 40);
-  font-size: 10px;
 }
 
 * {
@@ -31,17 +30,17 @@ body {
     color: var(--secondary-color);
   }
   #beratung-section .picture-title, #hardware-section .picture-title, #software-section .picture-title, #wartung-section .picture-title {
-    border-radius: 100px;
+    border-radius: 6.25rem;
     width: 40%;
-    max-width: 670px;
-    margin: 50px 2% 50px 8%;
+    max-width: 41.875rem;
+    margin: 3.125rem 2% 3.125rem 8%;
     display: flex;
     position: relative;
     text-align: center;
     align-items: center;
-    height: 450px;
+    height: 28.125rem;
     overflow: hidden;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0.3125rem 0.0625rem rgba(0, 0, 0, 0.5);
   }
   #beratung-section .picture-title .img-box, #hardware-section .picture-title .img-box, #software-section .picture-title .img-box, #wartung-section .picture-title .img-box {
     z-index: 1;
@@ -64,7 +63,7 @@ body {
   }
   #beratung-section .picture-title h1, #hardware-section .picture-title h1, #software-section .picture-title h1, #wartung-section .picture-title h1 {
     position: absolute;
-    font-size: 70px;
+    font-size: 4.375rem;
     width: 96%;
     padding: 0 2%;
     color: white;
@@ -77,40 +76,40 @@ body {
     align-items: center;
   }
   #beratung-section .content p, #hardware-section .content p, #software-section .content p, #wartung-section .content p {
-    width: 500px;
-    font-size: 18px;
+    width: 31.25rem;
+    font-size: 1.125rem;
   }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 93.75rem) {
   #beratung-section .picture-title h1, #hardware-section .picture-title h1, #software-section .picture-title h1, #wartung-section .picture-title h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 71.875rem) {
   #beratung-section, #hardware-section, #software-section, #wartung-section {
     display: flex;
     flex-wrap: wrap;
     position: relative;
   }
   #beratung-section .picture-title, #hardware-section .picture-title, #software-section .picture-title, #wartung-section .picture-title {
-    height: 600px;
+    height: 37.5rem;
     width: 90%;
-    margin: 50px 5% 50px 5%;
+    margin: 3.125rem 5% 3.125rem 5%;
     align-items: flex-start;
   }
   #beratung-section .picture-title h1, #hardware-section .picture-title h1, #software-section .picture-title h1, #wartung-section .picture-title h1 {
-    font-size: 50px;
-    margin-top: 40px;
+    font-size: 3.125rem;
+    margin-top: 2.5rem;
   }
   #beratung-section .picture-title .img-box .overlay, #hardware-section .picture-title .img-box .overlay, #software-section .picture-title .img-box .overlay, #wartung-section .picture-title .img-box .overlay {
     opacity: 60%;
   }
   #beratung-section .content, #hardware-section .content, #software-section .content, #wartung-section .content {
     width: 100%;
-    max-width: 670px;
+    max-width: 41.875rem;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     position: absolute;
     text-align: center;
   }
@@ -120,27 +119,27 @@ body {
     color: white;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 43.75rem) {
   #beratung-section .picture-title, #hardware-section .picture-title, #software-section .picture-title, #wartung-section .picture-title {
-    height: 650px;
+    height: 40.625rem;
     width: 90%;
-    margin: 50px 5% 50px 5%;
+    margin: 3.125rem 5% 3.125rem 5%;
   }
   #beratung-section .picture-title .img-box img, #hardware-section .picture-title .img-box img, #software-section .picture-title .img-box img, #wartung-section .picture-title .img-box img {
-    height: 640px;
+    height: 40rem;
     width: -moz-max-content;
     width: max-content;
   }
   #beratung-section .picture-title h1, #hardware-section .picture-title h1, #software-section .picture-title h1, #wartung-section .picture-title h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   #beratung-section .content, #hardware-section .content, #software-section .content, #wartung-section .content {
     width: 90%;
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
   #beratung-section .content p, #hardware-section .content p, #software-section .content p, #wartung-section .content p {
     width: 80%;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 }
 
@@ -155,14 +154,14 @@ body {
   #hardware-section .content p, #wartung-section .content p {
     text-align: right;
     margin-left: 0;
-    margin-right: 50px;
+    margin-right: 3.125rem;
   }
   #hardware-section .picture-title, #wartung-section .picture-title {
-    margin: 50px 8% 50px 2%;
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+    margin: 3.125rem 8% 3.125rem 2%;
+    box-shadow: 0 0 0.3125rem 0.0625rem rgba(0, 0, 0, 0.5);
   }
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 71.875rem) {
   #hardware-section, #wartung-section {
     flex-wrap: wrap-reverse;
   }
@@ -174,20 +173,20 @@ body {
     margin-right: 0;
   }
   #hardware-section .picture-title, #wartung-section .picture-title {
-    margin: 50px 5% 50px 5%;
+    margin: 3.125rem 5% 3.125rem 5%;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 31.25rem) {
   #beratung-section .content p, #software-section .content p {
     text-align: center;
-    font-size: 13.5px;
+    font-size: 0.84375rem;
     margin-left: 5%;
   }
 }
 
 #beratung-section {
-  padding-top: 15px;
+  padding-top: 0.9375rem;
   background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-180deg.png");
   background-position: top;
   background-repeat: no-repeat;
@@ -200,21 +199,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 71.875rem) {
   #software-section .content {
-    margin-top: 100px;
+    margin-top: 6.25rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 25rem) {
   #software-section .picture-title h1 {
-    font-size: 33px;
+    font-size: 2.0625rem;
   }
 }
 
 @media screen {
   #angebot-section {
-    padding: 50px;
-    padding-bottom: 70px;
+    padding: 3.125rem;
+    padding-bottom: 4.375rem;
     background-image: url("../_assets/images/background-images/visitenkarte-hintergrund.png");
     background-position: bottom;
     background-repeat: no-repeat;
@@ -229,31 +228,31 @@ body {
   }
   #angebot-section article h2 {
     color: var(--secondary-color);
-    font-size: 40px;
-    height: 120px;
+    font-size: 2.5rem;
+    height: 7.5rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     z-index: 100;
   }
   #angebot-section article ul {
     color: var(--secondary-color);
     background-color: white;
-    box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.5);
-    border-radius: 100px;
+    box-shadow: 0 0 0.3125rem 0.03125rem rgba(0, 0, 0, 0.5);
+    border-radius: 6.25rem;
     width: 80%;
-    min-height: 330px;
-    padding: 50px;
-    padding-top: 60px;
-    font-size: 15px;
+    min-height: 20.625rem;
+    padding: 3.125rem;
+    padding-top: 3.75rem;
+    font-size: 0.9375rem;
   }
   #angebot-section article ul li {
-    margin-left: 60px;
-    margin-right: 40px;
+    margin-left: 3.75rem;
+    margin-right: 2.5rem;
     width: 80%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 78.125rem) {
   #angebot-section {
     background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-90deg.png");
     background-position: center;
@@ -264,37 +263,37 @@ body {
     width: 80%;
   }
   #angebot-section article h2 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     height: auto;
   }
   #angebot-section article ul {
-    padding: 25px;
-    padding-top: 35px;
-    border-radius: 50px;
-    margin-bottom: 50px;
+    padding: 1.5625rem;
+    padding-top: 2.1875rem;
+    border-radius: 3.125rem;
+    margin-bottom: 3.125rem;
   }
   #angebot-section article ul li {
-    margin-left: 25px;
+    margin-left: 1.5625rem;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 31.25rem) {
   #angebot-section article {
     width: 90%;
   }
   #angebot-section article h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 45rem) {
   #wartung-section {
-    padding-bottom: 25px;
+    padding-bottom: 1.5625rem;
   }
 }
 
 #page-seperator {
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   background-color: var(--secondary-color);
   display: flex;
   justify-content: center;
@@ -304,45 +303,45 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto 20px;
-  height: 40px;
-  width: 40px;
-  border: 4px solid whitesmoke;
-  border-radius: 30px;
+  margin: auto 1.25rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 0.25rem solid whitesmoke;
+  border-radius: 1.875rem;
 }
 #page-seperator #arrow-down #arrow-left-side, #page-seperator #arrow-down #arrow-right-side {
   display: block;
-  width: 20px;
-  height: 4px;
+  width: 1.25rem;
+  height: 0.25rem;
   background-color: whitesmoke;
 }
 #page-seperator #arrow-down #arrow-left-side {
   rotate: 45deg;
-  margin-right: -4px;
+  margin-right: -rem(4);
 }
 #page-seperator #arrow-down #arrow-right-side {
   rotate: -45deg;
-  margin-left: -4px;
+  margin-left: -rem(4);
 }
 #page-seperator #text-left-side, #page-seperator #text-right-side {
   color: white;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 43.75rem) {
   #page-seperator #text-left-side, #page-seperator #text-right-side {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
   #page-seperator #text-left-side, #page-seperator #text-right-side {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 31.25rem) {
   #page-seperator {
-    height: 150px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    height: 9.375rem;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
     flex-direction: column;
   }
 }

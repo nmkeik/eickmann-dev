@@ -8,7 +8,7 @@ body {
         background-size: cover;
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: rem(500)) {
         background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-90deg.png");
         background-position: center;
     }
@@ -19,27 +19,27 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -40px;
-    height: clamp(600px, calc(100vh - 80px), 100vh);
-    padding-bottom: 60px;
+    margin-top: -rem(40);
+    height: clamp(rem(600), calc(100vh - rem(80)), 100vh);
+    padding-bottom: rem(60);
 
     h2 {
-        font-size: 30px;
+        font-size: rem(30);
         text-align: center;
-        margin: 0 20px;
+        margin: 0 rem(20);
     }
 
     a {
         text-align: center;
         text-decoration: none;
-        font-size: 1.7rem;
+        font-size: rem(17);
         font-weight: 500;
         color: rgb(55, 54, 54);
-        margin-top: 40px;
-        padding: 10px;
+        margin-top: rem(40);
+        padding: rem(10);
         background-color: transparent;
-        border: 2px solid rgb(55, 54, 54);
-        border-radius: 30px;
+        border: rem(2) solid rgb(55, 54, 54);
+        border-radius: rem(30);
         transition: all 0.2s ease;
     }
 

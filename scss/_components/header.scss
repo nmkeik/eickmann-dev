@@ -5,36 +5,36 @@ header {
         transition: all 0.5s;
         background-color: white;
         position: relative;
-        height: 80px;
+        height: rem(80);
 
         #logo {
             position: absolute;
-            top: 10px;
-            right: 20px;
+            top: rem(10);
+            right: rem(20);
             height: 70%;
             z-index: 100;
         }
 
         #contact-links {
             position: absolute;
-            top: 0px;
-            left: 20px;
+            top: 0;
+            left: rem(20);
             display: flex;
             flex-direction: column;
-            margin-top: 10px;
+            margin-top: rem(10);
 
             a {
                 text-decoration: none;
                 color: rgb(51, 50, 50);
-                font-size: 1.4rem;
+                font-size: rem(14);
                 font-weight: 500;
-                padding-bottom: 5px;
+                padding-bottom: rem(5);
 
                 img {
                     filter: invert(14%) sepia(25%) saturate(10%) hue-rotate(10deg) brightness(100%) contrast(87%);
-                    height: 1.4rem;
-                    margin-right: 4px;
-                    margin-bottom: -2.5px;
+                    height: rem(14);
+                    margin-right: rem(4);
+                    margin-bottom: -rem(2.5);
                 }
             }
 
@@ -63,31 +63,31 @@ header {
 
         .nav-bar {
             a {
-                margin: 0 2px;
+                margin: 0 rem(2);
 
                 display: inline-block;
 
                 text-decoration: none;
-                font-size: 1.6rem;
+                font-size: rem(16);
                 font-weight: 400;
 
                 color: rgb(26, 26, 26);
                 background-color: white;
 
-                padding: 8px 20px;
+                padding: rem(8) rem(20);
 
-                border: 1px solid rgba(255, 200, 1, 0);
+                border: rem(1) solid rgba(255, 200, 1, 0);
 
                 cursor: pointer;
             }
 
             a:hover,
             .active-hover {
-                border: 1px solid lightgrey;
+                border: rem(1) solid lightgrey;
             }
 
             .active-page {
-                border: 1px solid var(--main-color);
+                border: rem(1) solid var(--main-color);
             }
         }
 
@@ -98,35 +98,35 @@ header {
             text-align: center;
             grid-template-columns: repeat(1fr);
             background-color: white;
-            border: 1px solid lightgrey;
+            border: rem(1) solid lightgrey;
 
             a {
                 display: inline-block;
 
                 text-decoration: none;
-                font-size: 16px;
+                font-size: rem(16);
                 font-weight: 400;
 
                 color: rgb(26, 26, 26);
                 background-color: white;
 
-                padding: 8px 20px;
+                padding: rem(8) rem(20);
 
-                border: 1px solid rgba(255, 200, 1, 0);
+                border: rem(1) solid rgba(255, 200, 1, 0);
 
                 cursor: pointer;
             }
 
             a:hover {
-                border: 1px solid lightgrey;
+                border: rem(1) solid lightgrey;
             }
 
             .seperator {
-                border-bottom: 1px solid lightgray;
+                border-bottom: rem(1) solid lightgray;
             }
 
             .active-page {
-                border: 1px solid var(--main-color);
+                border: rem(1) solid var(--main-color);
             }
         }
 
@@ -135,15 +135,15 @@ header {
         }
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: rem(1024)) {
         #contact-links {
-            margin-top: 10px;
-            left: 10px;
+            margin-top: rem(10);
+            left: rem(10);
             align-items: center;
 
             a {
                 img {
-                    height: 2rem;
+                    height: rem(20);
                 }
 
                 span {
@@ -154,20 +154,20 @@ header {
     }
 
     /*small*/
-    @media screen and (max-width: 768px) {
-        height: 50px;
+    @media screen and (max-width: rem(768)) {
+        height: rem(50);
 
         #contact-links {
             flex-direction: row;
-            margin-top: 15px;
+            margin-top: rem(15);
 
             a {
-                margin-right: 10px;
+                margin-right: rem(10);
             }
         }
 
         .nav-bar {
-            top: -215px;
+            top: -rem(215);
             z-index: 200;
             display: flex;
             flex-direction: column;
@@ -181,7 +181,7 @@ header {
         }
 
         .nav-bar-active {
-            top: 50px;
+            top: rem(50);
         }
 
         #hamburger {
@@ -192,10 +192,10 @@ header {
             .bar {
                 display: block;
                 background-color: black;
-                border-radius: 2px;
-                width: 25px;
-                height: 3px;
-                margin: 5px auto;
+                border-radius: rem(2);
+                width: rem(25);
+                height: rem(3);
+                margin: rem(5) auto;
                 -webkit-transition: all 0.3s ease-in-out;
                 transition: all 0.3s ease-in-out;
             }
@@ -208,18 +208,18 @@ header {
 
             .bar:nth-child(1) {
                 opacity: 1;
-                transform: translateY(8px) rotate(45deg);
+                transform: translateY(rem(8)) rotate(45deg);
             }
 
             .bar:nth-child(3) {
                 opacity: 1;
-                transform: translateY(-8px) rotate(-45deg);
+                transform: translateY(-rem(8)) rotate(-45deg);
             }
         }
 
         .drop-down {
-            left: 2px;
-            right: 2px;
+            left: rem(2);
+            right: rem(2);
 
             a {
                 background-color: rgba(216, 216, 216, 0.147);
@@ -245,28 +245,28 @@ header {
         position: sticky;
         z-index: 1000;
         top: 90vh;
-        margin-right: 30px;
+        margin-right: rem(30);
         cursor: pointer;
-        font-size: 20px;
+        font-size: rem(20);
         display: block;
         border-radius: 25%;
-        width: 40px;
-        height: 40px;
+        width: rem(40);
+        height: rem(40);
         background-color: var(--main-color);
-        box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
+        box-shadow: rem(1) rem(1) rem(5) rem(2) rgba(0, 0, 0, 0.5);
 
-        @media screen and (max-width: 450px) {
+        @media screen and (max-width: rem(450)) {
             top: 85vh;
         }
 
         span {
             background-color: white;
-            width: 20px;
-            height: 2.5px;
+            width: rem(20);
+            height: rem(2.5);
             display: block;
             position: absolute;
             top: 48%;
-            box-shadow: 0 0 5px 0.5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 rem(5) rem(0.5) rgba(0, 0, 0, 0.5);
         }
         .left-span {
             right: 38%;

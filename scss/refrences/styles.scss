@@ -1,15 +1,15 @@
 @import "../_components/general";
 
 header {
-    border-bottom: 7px solid var(--main-color);
+    border-bottom: rem(7) solid var(--main-color);
 }
 
 main {
-    padding: 20px;
+    padding: rem(20);
     padding-top: 0;
     margin-top: 0;
-    padding-bottom: 20px;
-    font-size: 14px;
+    padding-bottom: rem(20);
+    font-size: rem(14);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +17,9 @@ main {
     background-color: var(--secondary-color);
 
     h1 {
-        font-size: 50px;
-        padding: 20px 20px;
-        margin: 10px -20px 20px -20px;
+        font-size: rem(50);
+        padding: rem(20) rem(20);
+        margin: rem(10) -rem(20) rem(20) -rem(20);
         text-align: center;
 
         color: white;
@@ -33,14 +33,14 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr;
 
-        //border: 3px solid #1b61a7;
-        border: 7px solid var(--main-color);
-        border-radius: 40px;
+        //border: rem(3) solid #1b61a7;
+        border: rem(7) solid var(--main-color);
+        border-radius: rem(40);
         overflow: hidden;
 
-        max-width: 1500px;
-        height: 200px;
-        margin: 20px 0;
+        max-width: rem(1500);
+        height: rem(200);
+        margin: rem(20) 0;
 
         background-color: white;
 
@@ -49,23 +49,23 @@ main {
             text-align: center;
             
             img {
-                height: 130px;
+                height: rem(130);
                 transition: height 0.15s;
             }
 
             img:hover {
-                height: 140px;
+                height: rem(140);
             }
 
             a {
                 text-decoration: none;
-                font-size: 30px;
+                font-size: rem(30);
                 transition: font-size 0.15s;
                 color: var(--secondary-color);
             }
 
             a:hover {
-                font-size: 35px;
+                font-size: rem(35);
             }
         }
 
@@ -79,7 +79,7 @@ main {
             justify-content: center;
 
             p {
-                margin: 20px;
+                margin: rem(20);
                 color: black;
 
                 .line-break {
@@ -89,18 +89,18 @@ main {
         }
     }
 
-    @media screen and (max-width: 1230px) {
+    @media screen and (max-width: rem(1230)) {
 
         .ref-with-text {
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr;
-            width: 600px;
-            height: 600px;
-            border-radius: 300px;
+            width: rem(600);
+            height: rem(600);
+            border-radius: rem(300);
 
             .logo {
                 h2 {
-                    margin-bottom: -100px;
+                    margin-bottom: -rem(100);
                 }
             }
     
@@ -109,7 +109,7 @@ main {
 
                 p {
                     text-align: center;
-                    margin-top: -20px;
+                    margin-top: -rem(20);
 
                     .line-break {
                         display: block;
@@ -121,7 +121,7 @@ main {
         :nth-child(2) {
             .logo {
                 img {
-                    margin-bottom: -100px;
+                    margin-bottom: -rem(100);
                 }
             }
         }
@@ -130,12 +130,12 @@ main {
             .logo {
                 order: -1;
                 img {
-                    margin-bottom: -50px;
-                    height: 170px;
+                    margin-bottom: -rem(50);
+                    height: rem(170);
                 }
 
                 img:hover {
-                    height: 190px;
+                    height: rem(190);
                 }
             }
 
@@ -143,31 +143,31 @@ main {
                 order: 1;
 
                 p {
-                    margin-top: -100px;
+                    margin-top: -rem(100);
                 }
             }
         }
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: rem(700)) {
         .ref-with-text {
-            width: 300px;
-            height: 900px;
-            border-radius: 150px;
+            width: rem(300);
+            height: rem(900);
+            border-radius: rem(150);
         }
 
         :nth-child(2) {
             .logo {
                 img {
-                    margin-bottom: -50px;
+                    margin-bottom: -rem(50);
                     height: auto;
-                    width: 250px;
+                    width: rem(250);
                     transition: width 0.15s;
                 }
 
                 img:hover {
                     height: auto;
-                    width: 270px;
+                    width: rem(270);
                 }
             }
         }
@@ -177,9 +177,9 @@ main {
         /*general*/
         @media screen {
             width: 100%;
-            font-size: 1rem;
+            font-size: rem(10);
             flex-direction: column;
-            margin: 50px auto;
+            margin: rem(50) auto;
     
             a {
                 text-decoration: none;
@@ -193,34 +193,34 @@ main {
             h1 {
                 font-size: 5em;
                 color: white;
-                margin: 40px 0;
+                margin: rem(40) 0;
             }
     
             #scroll-container {
                 width: 100%;
-                height: 100px;
-                padding: 40px 0;
+                height: rem(100);
+                padding: rem(40) 0;
                 border-style: solid;
                 border-color: white;
-                border-radius: 15px;
+                border-radius: rem(15);
                 overflow: hidden;
                 background-color: white;
                 position: relative;
     
                 .scroll-logos {
                     position: absolute;
-                    height: 115px;
+                    height: rem(115);
                     display: flex;
                     left: 100%;
-                    top: 40px;
+                    top: rem(40);
                     overflow: hidden;
                     white-space: nowrap;
                     align-items: center;
                     animation: scroll-logos 25s infinite linear;
     
                     img {
-                        height: 100px;
-                        padding: 0 50px;
+                        height: rem(100);
+                        padding: 0 rem(50);
                         transition: transform 0.2s;
                     }
 
@@ -242,20 +242,20 @@ main {
         }
     
         /*xtra-small*/
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: rem(480)) {
             #scroll-container {
                 width: 80%;
-                padding: 20px;
+                padding: rem(20);
                 border-style: solid;
                 border-color: white;
-                border-radius: 10px;
+                border-radius: rem(10);
                 overflow: hidden;
                 background-color: white;
     
                 .scroll-logos {
-                    top: 20px;
+                    top: rem(20);
                     img {
-                        height: 60px;
+                        height: rem(60);
                     }
 
                     img:hover {
