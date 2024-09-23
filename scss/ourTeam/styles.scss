@@ -84,6 +84,16 @@ main {
                 margin-top: rem(20);
                 color: rgb(196, 196, 196);
                 font-size: rem(35);
+
+                a {
+                    color: inherit;
+                    transition: color 0.2s;
+
+                    &:hover {
+                        color: white;
+                        transition: color 0.2s;
+                    }
+                }
             }
         }
 

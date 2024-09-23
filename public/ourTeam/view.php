@@ -10,7 +10,7 @@
             <h2>Ulrich Eickmann</h2>
             <h3>Inhaber & Geschäftsführer</h3>
             <p>
-                Nach einem Studium der Elektrotechnik hat Ulrich Eickmann bereits 1986 die Firma Eickmann Computer gegründet. Zunächst hat die Firma sich deutschlandweit einen Namen als Atari Fachbetrieb gemacht. Dazu gehörten auch eigene Entwicklungen von ………..<br>
+                Nach einem Studium der Elektrotechnik hat Ulrich Eickmann bereits 1986 die Firma Eickmann Computer gegründet. Zunächst hat die Firma sich deutschlandweit einen Namen als Atari Fachbetrieb gemacht. Dazu gehörten auch einige eigene Entwicklungen wie die Festplatten-verwaltungs-software <a href="https://www.stcarchiv.de/stc1987/12/60-mbyte-festplatte">HDPLUS für den ATARI ST TT</a>, den <a href="http://www.pofowiki.de/doku.php?id=hilfe:tipps:exchanges:atarist2pofo">FolioTALK</a> , den <a href="https://www.digitalretropark.net/blog/neue-spende-myterioeser-tower-und-mehr/">ATARI Tower</a> und noch vieles mehr.<br>
                 Mit den Veränderungen am Computer Markt weg vom Atari hin zum PC wie wir ihn heute kennen, hatte Ulrich Eickmann seinen Betrieb entsprechend umgestellt und beweist nun seit über 30 Jahren, dass sein Fachbetrieb kompetent und zuverlässig ist.
             </p>
         </div>
