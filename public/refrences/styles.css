@@ -43,7 +43,7 @@ main {
 main h1 {
   font-size: 3.125rem;
   padding: 1.25rem 1.25rem;
-  margin: 0.625rem -rem(20) 1.25rem -rem(20);
+  margin: 0.625rem -1.25rem 1.25rem -1.25rem;
   text-align: center;
   color: white;
   background-color: var(--secondary-color);
@@ -106,26 +106,26 @@ main .ref-with-text .refrence-text p .line-break {
     border-radius: 18.75rem;
   }
   main .ref-with-text .logo h2 {
-    margin-bottom: -rem(100);
+    margin-bottom: -6.25rem;
   }
   main .ref-with-text .refrence-text {
     text-align: center;
   }
   main .ref-with-text .refrence-text p {
     text-align: center;
-    margin-top: -rem(20);
+    margin-top: -1.25rem;
   }
   main .ref-with-text .refrence-text p .line-break {
     display: block;
   }
   main :nth-child(2) .logo img {
-    margin-bottom: -rem(100);
+    margin-bottom: -6.25rem;
   }
   main :nth-child(3) .logo {
     order: -1;
   }
   main :nth-child(3) .logo img {
-    margin-bottom: -rem(50);
+    margin-bottom: -3.125rem;
     height: 10.625rem;
   }
   main :nth-child(3) .logo img:hover {
@@ -135,7 +135,7 @@ main .ref-with-text .refrence-text p .line-break {
     order: 1;
   }
   main :nth-child(3) .refrence-text p {
-    margin-top: -rem(100);
+    margin-top: -6.25rem;
   }
 }
 @media screen and (max-width: 43.75rem) {
@@ -145,7 +145,7 @@ main .ref-with-text .refrence-text p .line-break {
     border-radius: 9.375rem;
   }
   main :nth-child(2) .logo img {
-    margin-bottom: -rem(50);
+    margin-bottom: -3.125rem;
     height: auto;
     width: 15.625rem;
     transition: width 0.15s;
@@ -174,7 +174,7 @@ main #ref-no-text {
     text-decoration-color: white;
   }
   main #ref-no-text h1 {
-    font-size: 5em;
+    font-size: 3.125rem;
     color: white;
     margin: 2.5rem 0;
   }

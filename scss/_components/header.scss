@@ -17,7 +17,7 @@ header {
 
         #contact-links {
             position: absolute;
-            top: 0;
+            top: rem(0);
             left: rem(20);
             display: flex;
             flex-direction: column;
@@ -34,7 +34,7 @@ header {
                     filter: invert(14%) sepia(25%) saturate(10%) hue-rotate(10deg) brightness(100%) contrast(87%);
                     height: rem(14);
                     margin-right: rem(4);
-                    margin-bottom: -rem(2.5);
+                    margin-bottom: rem(-2.5);
                 }
             }
 
@@ -167,7 +167,7 @@ header {
         }
 
         .nav-bar {
-            top: -rem(215);
+            top: rem(-215);
             z-index: 200;
             display: flex;
             flex-direction: column;
@@ -213,7 +213,7 @@ header {
 
             .bar:nth-child(3) {
                 opacity: 1;
-                transform: translateY(-rem(8)) rotate(-45deg);
+                transform: translateY(rem(-8)) rotate(-45deg);
             }
         }
 

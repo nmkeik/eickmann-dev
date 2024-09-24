@@ -16,7 +16,7 @@
             align-items: center;
             height: rem(450);
             overflow: hidden;
-            box-shadow: 0 0 rem(5) rem(1) rgba(0, 0, 0, 0.5);
+            box-shadow: rem(0) rem(0) rem(5) rem(1) rgba(0, 0, 0, 0.5);
 
             .img-box {
                 z-index: 1;
@@ -158,7 +158,7 @@
 
         .picture-title {
             margin: rem(50) 8% rem(50) 2%;
-            box-shadow: 0 0 rem(5) rem(1) rgba(0, 0, 0, 0.5);
+            box-shadow: rem(0) rem(0) rem(5) rem(1) rgba(0, 0, 0, 0.5);
             
         }
     }
@@ -243,7 +243,7 @@
 
             h2 {
                 color: var(--secondary-color);
-                //text-shadow: 0 0 rem(8) black;
+                //text-shadow: rem(0) rem(0) rem(8) black;
                 font-size: rem(40);
                 height: rem(120);
                 text-align: center;
@@ -255,7 +255,7 @@
             ul {
                 color: var(--secondary-color);
                 background-color: white;
-                box-shadow: 0 0 rem(5) rem(0.5) rgba(0, 0, 0, 0.5);
+                box-shadow: rem(0) rem(0) rem(5) rem(0.5) rgba(0, 0, 0, 0.5);
                 border-radius: rem(100);
                 width: 80%;
                 min-height: rem(330);
@@ -345,12 +345,12 @@
     
         #arrow-left-side {
             rotate: 45deg;
-            margin-right: -rem(4);
+            margin-right: rem(-4);
         }
     
         #arrow-right-side {
             rotate: -45deg;
-            margin-left: -rem(4);
+            margin-left: rem(-4);
         }
     }
 

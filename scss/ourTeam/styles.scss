@@ -22,18 +22,18 @@ main {
 
     h1 {
         font-size: rem(50);
-        padding: rem(20) 0 rem(10);
+        padding: rem(20) rem(0) rem(10);
         width: 100%;
         text-align: center;
-        margin-top: -rem(35);
+        margin-top: rem(-35);
         background-color: white;
         border-radius: 0 0 rem(20) rem(20);
         box-shadow: 0 0 rem(2) rem(2) rgba(204, 204, 204, 0.525);
     }
 
     section {
-        margin: rem(330) 10%;
-        margin-bottom: rem(15);
+        margin: rem(206.25) 10%;
+        margin-bottom: rem(9.375);
 
         .img-box {
             height: 30vw;
@@ -72,18 +72,18 @@ main {
 
             h2 {
                 color: white;
-                font-size: rem(60);
+                font-size: rem(37.5);
             }
 
             h3 {
                 color: rgb(200, 200, 200);
-                font-size: rem(45);
+                font-size: rem(28.125);
             }
 
             p {
-                margin-top: rem(20);
+                margin-top: rem(12.5);
                 color: rgb(196, 196, 196);
-                font-size: rem(35);
+                font-size: rem(21.875);
 
                 a {
                     color: inherit;
@@ -99,7 +99,7 @@ main {
 
         @media screen and (max-width: rem(1400)) {
             flex-direction: column;
-            margin: rem(100) 10%;
+            margin: rem(62.5) 10%;
             position: relative;
 
             .img-box {
@@ -137,16 +137,16 @@ main {
             }
 
             h2 {
-                font-size: rem(60);
+                font-size: rem(37.5);
             }
 
             h3 {
-                font-size: rem(45);
+                font-size: rem(28.125);
             }
 
             p {
-                margin-top: rem(20);
-                font-size: rem(35);
+                margin-top: rem(12.5);
+                font-size: rem(21.875);
             }
         }
 
@@ -155,13 +155,13 @@ main {
         @media screen and (max-width: rem(600)) {
             .content {
                 h2 {
-                    font-size: rem(55);
+                    font-size: rem(34.375);
                 }
                 h3 {
-                    font-size: rem(35);
+                    font-size: rem(21.875);
                 }
                 p {
-                    font-size: rem(30);
+                    font-size: rem(18.75);
                 }
             }
         }

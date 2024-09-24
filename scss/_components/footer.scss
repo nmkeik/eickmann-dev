@@ -2,7 +2,7 @@ footer {
   /*general*/
   @media screen {
     position: absolute;
-    bottom: -rem(47);
+    bottom: rem(-47);
     left: 0;
     right: 0;
     padding: rem(15) rem(20);

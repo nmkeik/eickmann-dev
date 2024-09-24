@@ -23,18 +23,18 @@ main {
 
     h1 {
         font-size: rem(50);
-        padding: rem(20) 0 rem(10);
+        padding: rem(20) rem(0) rem(10);
         width: 100%;
         text-align: center;
-        margin-top: -rem(35);
+        margin-top: rem(-35);
         background-color: white;
         border-radius: 0 0 rem(20) rem(20);
         box-shadow: 0 0 rem(2) rem(2) rgba(204, 204, 204, 0.525);
     }
 
     section {
-        margin: rem(50) 10%;
-        margin-bottom: rem(15);
+        margin: rem(31.25) 10%;
+        margin-bottom: rem(9.375);
         flex-direction: column;
 
         h2 {

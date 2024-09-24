@@ -72,8 +72,8 @@ body {
   }
   #box1 #walking-mouse {
     z-index: 100;
-    margin-right: -rem(3);
-    margin-top: -rem(20);
+    margin-right: -0.1875rem;
+    margin-top: -1.25rem;
     padding-bottom: 1.25rem;
     width: 32.5rem;
   }
@@ -90,18 +90,18 @@ body {
     font-size: 4.0625rem;
   }
   #box1 .box1-right .box1-slogan {
-    font-size: 1.8em;
+    font-size: 1.125rem;
     color: rgb(17, 17, 17);
     margin-top: 1.8125rem;
   }
   #box1 .box1-right button {
-    margin-top: 1.875rem;
+    margin-top: 1.9375rem;
     padding: 1.125rem 3.75rem;
     background-color: transparent;
     border: 0.0625rem solid black;
     cursor: pointer;
     transition: background-color 0.15s, color 0.15s;
-    font-size: 1.4em;
+    font-size: 0.875rem;
   }
   #box1 .box1-right button:hover {
     color: white;
@@ -112,7 +112,7 @@ body {
   }
   #box1 .box1-right .box1-opening-hours p {
     margin-top: 0.625rem;
-    font-size: 1.4em;
+    font-size: 0.875rem;
   }
   #box1 .box1-right .box1-opening-hours p a {
     color: black;
@@ -142,7 +142,7 @@ body {
   }
   #box1 .box1-right .box1-shop-name {
     display: block;
-    font-size: 6em;
+    font-size: 3.75rem;
   }
   #box1 .box1-right .box1-slogan {
     color: rgb(17, 17, 17);
@@ -154,7 +154,7 @@ body {
     background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-90deg.png");
   }
   #box1 #walking-mouse {
-    margin-left: -rem(50);
+    margin-left: -3.125rem;
     margin-top: 0.625rem;
   }
   #box1 .box1-right {
@@ -274,12 +274,12 @@ body {
     text-decoration: underline;
   }
   #box3 h1 {
-    font-size: 5em;
+    font-size: 3.125rem;
     padding-top: 2.5rem;
     text-align: center;
   }
   #box3 h2 {
-    font-size: 2.5em;
+    font-size: 1.5625rem;
     font-weight: 500;
     text-align: center;
   }
@@ -306,11 +306,11 @@ body {
     border: 0.625rem solid var(--secondary-color);
   }
   #box3 .box3-container div h3 {
-    font-size: 2em;
+    font-size: 1.25rem;
     margin-top: 1.125rem;
   }
   #box3 .box3-container div h4 {
-    font-size: 1.8em;
+    font-size: 1.125rem;
     font-weight: 500;
     margin-bottom: 1.125rem;
   }
@@ -341,7 +341,7 @@ body {
     text-decoration-color: white;
   }
   #box4 h1 {
-    font-size: 5em;
+    font-size: 3.125rem;
     color: white;
     margin: 2.5rem 0;
   }
@@ -417,7 +417,7 @@ body {
     color: white;
   }
   #box5 h1 {
-    font-size: 5em;
+    font-size: 3.125rem;
     margin: 2.5rem;
   }
   #box5 #reviews {
@@ -435,15 +435,15 @@ body {
   #box5 #reviews div a h2 {
     color: white;
     margin-bottom: 0.3125rem;
-    font-size: 2.5em;
+    font-size: 1.5625rem;
   }
   #box5 #reviews div a h3 {
     color: white;
     margin-bottom: 1.25rem;
-    font-size: 2em;
+    font-size: 1.25rem;
   }
   #box5 #reviews div a div {
-    font-size: 1.4em;
+    font-size: 0.875rem;
     text-align: left;
     color: black;
     background-color: white;

@@ -44,7 +44,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -rem(40);
+  margin-top: -2.5rem;
   height: clamp(37.5rem, 100vh - 5rem, 100vh);
   padding-bottom: 3.75rem;
 }

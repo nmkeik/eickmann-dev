@@ -47,8 +47,8 @@
 
 		#walking-mouse {
 			z-index: 100;
-			margin-right: -rem(3);
-			margin-top: -rem(20);
+			margin-right: rem(-3);
+			margin-top: rem(-20);
 			padding-bottom: rem(20);
 			width: rem(520);
 		}
@@ -67,19 +67,19 @@
 			}
 				
 			.box1-slogan {
-				font-size: 1.8em;
+				font-size: rem(18);
 				color: rgb(17, 17, 17);
 				margin-top: rem(29);
 			}
 				
 			button {
-				margin-top: rem(30);
+				margin-top: rem(31);
 				padding: rem(18) rem(60);
 				background-color: transparent;
 				border: rem(1) solid black;
 				cursor: pointer;
 				transition: background-color 0.15s, color 0.15s;
-				font-size: 1.4em;
+				font-size: rem(14);
 			}
 				
 			button:hover {
@@ -92,7 +92,7 @@
 	
 				p {
 					margin-top: rem(10);
-					font-size: 1.4em;
+					font-size: rem(14);
 	
 					a {
 						color: black;
@@ -132,7 +132,7 @@
 
 			.box1-shop-name {
 				display: block;
-				font-size: 6em;
+				font-size: rem(60);
 			}
 			
 			.box1-slogan {
@@ -147,7 +147,7 @@
 		background-image: url("../_assets/images/background-images/visitenkarte-hintergrund-90deg.png");
 
 		#walking-mouse {
-			margin-left: -rem(50);
+			margin-left: rem(-50);
 			margin-top: rem(10);
 		}
 
@@ -291,13 +291,13 @@
 		}
 
 		h1 {
-			font-size: 5em;
+			font-size: rem(50);
 			padding-top: rem(40);
 			text-align: center;
 		}
 
 		h2 {
-			font-size: 2.5em;
+			font-size: rem(25);
 			font-weight: 500;
 			text-align: center;
 		}
@@ -326,12 +326,12 @@
 				}
 
 				h3 {
-					font-size: 2em;
+					font-size: rem(20);
 					margin-top: rem(18);
 				}
 
 				h4 {
-					font-size: 1.8em;
+					font-size: rem(18);
 					font-weight: 500;
 					margin-bottom: rem(18);
 				}
@@ -364,7 +364,7 @@
 		}
 
 		h1 {
-			font-size: 5em;
+			font-size: rem(50);
 			color: white;
 			margin: rem(40) 0;
 		}
@@ -450,7 +450,7 @@
 		color: white;
 
 		h1 {
-			font-size: 5em;
+			font-size: rem(50);
 			margin: rem(40);
 		}
 
@@ -469,17 +469,17 @@
 					h2 {
 						color: white;
 						margin-bottom: rem(5);
-						font-size: 2.5em;
+						font-size: rem(25);
 					}
 	
 					h3 {
 						color: white;
 						margin-bottom: rem(20);
-						font-size: 2em;
+						font-size: rem(20);
 					}
 
 					div {
-						font-size: 1.4em;
+						font-size: rem(14);
 						text-align: left;
 						color: black;
 						background-color: white;

@@ -47,17 +47,17 @@ main {
 }
 main h1 {
   font-size: 3.125rem;
-  padding: 1.25rem 0 0.625rem;
+  padding: 1.25rem 0rem 0.625rem;
   width: 100%;
   text-align: center;
-  margin-top: -rem(35);
+  margin-top: -2.1875rem;
   background-color: white;
   border-radius: 0 0 1.25rem 1.25rem;
   box-shadow: 0 0 0.125rem 0.125rem rgba(204, 204, 204, 0.525);
 }
 main section {
-  margin: 3.125rem 10%;
-  margin-bottom: 0.9375rem;
+  margin: 1.953125rem 10%;
+  margin-bottom: 0.5859375rem;
   flex-direction: column;
 }
 main section h2 {

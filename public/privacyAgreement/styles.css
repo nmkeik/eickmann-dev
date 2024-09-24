@@ -35,7 +35,7 @@ body {
 }
 
 main {
-  margin: 1.25rem 3.125rem 0 3.75rem;
+  margin: 1.25rem 3.125rem 0rem 3.75rem;
   padding-bottom: 1.875rem;
   font-size: 1.25rem;
 }
@@ -44,8 +44,8 @@ main #h1-broken-up {
 }
 main h1 {
   font-size: 3.125rem;
-  padding: 0 0 1.25rem;
-  margin-left: -rem(20);
+  padding: 0rem 0rem 1.25rem;
+  margin-left: -1.25rem;
 }
 main p {
   margin: 0.9375rem 0;
