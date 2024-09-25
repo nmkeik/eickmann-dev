@@ -33,3 +33,6 @@ body {
   min-height: 100vh;
   position: relative;
 }
+
+@import '_header.scss';
+@import '_footer.scss';

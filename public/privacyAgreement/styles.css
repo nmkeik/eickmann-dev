@@ -24,6 +24,277 @@ body {
   position: relative;
 }
 
+header {
+  /*general*/
+  /*small*/
+}
+@media screen {
+  header {
+    transition: all 0.5s;
+    background-color: white;
+    position: relative;
+    height: 5rem;
+  }
+  header #logo {
+    position: absolute;
+    top: 0.625rem;
+    right: 1.25rem;
+    height: 70%;
+    z-index: 100;
+  }
+  header #contact-links {
+    position: absolute;
+    top: 0rem;
+    left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.625rem;
+  }
+  header #contact-links a {
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding-bottom: 0.3125rem;
+  }
+  header #contact-links a img {
+    filter: invert(14%) sepia(25%) saturate(10%) hue-rotate(10deg) brightness(100%) contrast(87%);
+    height: 0.875rem;
+    margin-right: 0.25rem;
+    margin-bottom: -0.15625rem;
+  }
+  header #contact-links a:hover {
+    color: var(--main-color);
+  }
+  header #contact-links a:hover img {
+    filter: invert(67%) sepia(94%) saturate(727%) hue-rotate(0deg) brightness(105%) contrast(103%);
+  }
+  header #leistungen-link-small {
+    display: none;
+  }
+}
+@media screen and (pointer: coarse) {
+  header #leistungen-link {
+    display: none;
+  }
+  header #leistungen-link-small {
+    display: inline-block;
+  }
+}
+@media screen {
+  header .nav-bar a {
+    margin: 0 0.125rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(26, 26, 26);
+    background-color: white;
+    padding: 0.5rem 1.25rem;
+    border: 0.0625rem solid rgba(255, 200, 1, 0);
+    cursor: pointer;
+  }
+  header .nav-bar a:hover,
+  header .nav-bar .active-hover {
+    border: 0.0625rem solid lightgrey;
+  }
+  header .nav-bar .active-page {
+    border: 0.0625rem solid var(--main-color);
+  }
+  header .drop-down {
+    z-index: 300;
+    position: absolute;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(1fr);
+    background-color: white;
+    border: 0.0625rem solid lightgrey;
+  }
+  header .drop-down a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(26, 26, 26);
+    background-color: white;
+    padding: 0.5rem 1.25rem;
+    border: 0.0625rem solid rgba(255, 200, 1, 0);
+    cursor: pointer;
+  }
+  header .drop-down a:hover {
+    border: 0.0625rem solid lightgrey;
+  }
+  header .drop-down .seperator {
+    border-bottom: 0.0625rem solid lightgray;
+  }
+  header .drop-down .active-page {
+    border: 0.0625rem solid var(--main-color);
+  }
+  header #hamburger {
+    display: none;
+  }
+}
+@media screen and (max-width: 64rem) {
+  header #contact-links {
+    margin-top: 0.625rem;
+    left: 0.625rem;
+    align-items: center;
+  }
+  header #contact-links a img {
+    height: 1.25rem;
+  }
+  header #contact-links a span {
+    display: none;
+  }
+}
+@media screen and (max-width: 48rem) {
+  header {
+    height: 3.125rem;
+  }
+  header #contact-links {
+    flex-direction: row;
+    margin-top: 0.9375rem;
+  }
+  header #contact-links a {
+    margin-right: 0.625rem;
+  }
+  header .nav-bar {
+    top: -13.4375rem;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  header .nav-bar-active {
+    top: 3.125rem;
+  }
+  header #hamburger {
+    z-index: 400;
+    display: block;
+    cursor: pointer;
+  }
+  header #hamburger .bar {
+    display: block;
+    background-color: black;
+    border-radius: 0.125rem;
+    width: 1.5625rem;
+    height: 0.1875rem;
+    margin: 0.3125rem auto;
+    transition: all 0.3s ease-in-out;
+  }
+  header .hamburger-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  header .hamburger-active .bar:nth-child(1) {
+    opacity: 1;
+    transform: translateY(0.5rem) rotate(45deg);
+  }
+  header .hamburger-active .bar:nth-child(3) {
+    opacity: 1;
+    transform: translateY(-0.5rem) rotate(-45deg);
+  }
+  header .drop-down {
+    left: 0.125rem;
+    right: 0.125rem;
+  }
+  header .drop-down a {
+    background-color: rgba(216, 216, 216, 0.147);
+  }
+}
+
+#scroll-to-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+#scroll-to-top::before {
+  content: "";
+  display: block;
+  height: 101vh;
+  pointer-events: none;
+}
+#scroll-to-top a {
+  position: sticky;
+  z-index: 1000;
+  top: 90vh;
+  margin-right: 1.875rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: block;
+  border-radius: 25%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--main-color);
+  box-shadow: 0.0625rem 0.0625rem 0.3125rem 0.125rem rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 28.125rem) {
+  #scroll-to-top a {
+    top: 85vh;
+  }
+}
+#scroll-to-top a span {
+  background-color: white;
+  width: 1.25rem;
+  height: 0.15625rem;
+  display: block;
+  position: absolute;
+  top: 48%;
+  box-shadow: 0 0 0.3125rem 0.03125rem rgba(0, 0, 0, 0.5);
+}
+#scroll-to-top a .left-span {
+  right: 38%;
+  transform: rotate(-55deg);
+}
+#scroll-to-top a .right-span {
+  left: 38%;
+  transform: rotate(55deg);
+}
+
+footer {
+  /*general*/
+  /*small*/
+}
+@media screen {
+  footer {
+    position: absolute;
+    bottom: -2.9375rem;
+    left: 0;
+    right: 0;
+    padding: 0.9375rem 1.25rem;
+    background-color: var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    color: black;
+  }
+  footer a {
+    margin: 0 1.25rem;
+    color: black;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  footer p {
+    position: absolute;
+    right: 1.25rem;
+  }
+}
+@media screen and (max-width: 52.5rem) {
+  footer p {
+    position: relative;
+    margin: 0 1.25rem;
+  }
+}
+
 body {
   width: 100vw;
   background-image: url(../_assets/images/background-images/polygon-scatter-haikei1.svg);
