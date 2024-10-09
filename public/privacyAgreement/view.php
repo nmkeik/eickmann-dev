@@ -158,39 +158,6 @@
 
         <li>
 
-            Name und Anschrift des Datenschutzbeauftragten
-
-            <p>
-                Der Datenschutzbeauftragte des für die Verarbeitung Verantwortlichen ist:
-            </p>
-
-            <ol class="li-fw-500">
-                <li>Christoph Kluss</li>
-
-                <li>RAe Haaß & Kluss</li>
-
-                <li>Martorffstr. 5</li>
-
-                <li>60320 Frankfurt</li>
-
-                <li>Deutschland</li>
-
-                <li>Tel.: <a href="tel:069-562095">069/562095</a></li>
-
-                <li>E-Mail: <a href="mailto:lawoffice@t-online.de">lawoffice (at) t-online.de</a></li>
-
-                <li>Webseite: <a href="https://www.haass-und-kluss.de">https://www.haass-und-kluss.de</a></li>
-            </ol>
-
-            <p>
-                Jede betroffene Person kann sich jederzeit bei allen Fragen und Anregungen zum Datenschutz direkt an
-                unseren Datenschutzbeauftragten wenden.
-            </p>
-
-        </li>
-
-        <li>
-
             Cookies
 
             <p>

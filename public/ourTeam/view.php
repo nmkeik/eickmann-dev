@@ -40,7 +40,7 @@
             <h3>Angehender Informatiker</h3>
             <p>
                 Nickolas Eickmann verbindet seine Leidenschaft für Technologie mit einem ausgeprägten sozialen Bewusstsein. Durch seine Tätigkeit im sozialen Bereich hat er ein Verständnis für die Bedürfnisse und Herausforderungen von Menschen mit Einschränkungen entwickelt.<br>
-                Er ist besonders im Bereich Gestaltung von Webseiten und Programmierung aktiv. Er hat bereits zahlreiche Projekte erfolgreich abgeschlossen und dabei ein Know-how in Bereichen wie HTML, CSS, JavaScript, PHP, Python, Java und verschiedenen weiteren Programmiersprachen sich angeeignet.
+                Er ist besonders im Bereich Gestaltung von Webseiten und Programmierung aktiv. Er hat bereits zahlreiche Projekte erfolgreich abgeschlossen und sich dabei ein Know-how in Bereichen wie HTML, CSS, JavaScript, PHP, Python, Java und verschiedenen weiteren Programmiersprachen angeeignet.
             </p>
         </div>
     </section>

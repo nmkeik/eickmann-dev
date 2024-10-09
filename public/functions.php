@@ -9,7 +9,7 @@ function dd($value) {
 }
 
 function checkfernwartung(){
-	if (isset($_GET['fernwartung'])) {
+	if (isset($_GET['fw'])) {
 		fernwartungChangeState();
 		$GLOBALS['FernwartungState']=true;
 	} else {

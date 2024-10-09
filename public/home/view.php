@@ -91,7 +91,7 @@
                             Software & Betriebssysteme
                         </h2>
                         <p>
-                            Konzeptionelle Planung der IT-Infrastruktur und sicherer Netzwerkarchitekturen sind die Basis für einen reibungslosen Betrieb und gewährleisten dauerhaften Nutzen bei gleichzeitiger Reduzierung der Folgekosten
+                            Konzeptionelle Planung der IT-Infrastruktur und sicherer Netzwerkarchitekturen sind die Basis für einen reibungslosen Betrieb und gewährleisten dauerhaften Nutzen bei gleichzeitiger Reduzierung der Folgekosten.
                         </p>
                     </div>
                 </a>
